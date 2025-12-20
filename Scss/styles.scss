@@ -1,0 +1,51 @@
+@use "_reset.scss";
+
+body{
+    background-color: rgb(59, 58, 58);
+}
+
+.header{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(44, 44, 44);
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    vertical-align: top;
+    background-color: rgb(44, 44, 44);
+}
+
+.mainpage{
+    color: red;
+}
+
+
+ul{
+    display: flex;
+    vertical-align: middle;
+    gap: 40px;
+}
+nav{
+    gap: 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+li{
+    vertical-align: middle;
+    margin-top: 27px; 
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+
+    font-family: 'Orbitron';
+}
+
+header{
+   position: fixed;
+}
