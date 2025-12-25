@@ -77,6 +77,32 @@ body {
   color: red;
 }
 
+.navigation {
+  display: flex;
+  gap: 20px;
+}
+
+nav input {
+  margin-left: 200px;
+  height: 50px;
+  width: 300px;
+  border: none;
+  background-color: rgb(59, 58, 58);
+  transition: ease-in-out 0.5s;
+}
+
+nav input:focus {
+  margin-left: 100px;
+  height: 50px;
+  width: 300px;
+  outline: none;
+  background-image: url("../images/search.png");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 10px center;
+  padding: 10px 50px;
+}
+
 ul {
   display: flex;
   vertical-align: middle;
@@ -84,8 +110,9 @@ ul {
 }
 
 nav {
-  gap: 20px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding-top: 20px;
   padding-left: 20px;
 }
@@ -93,6 +120,12 @@ nav {
 li {
   vertical-align: middle;
   margin-top: 27px;
+}
+
+li a:hover {
+  border-bottom: 2px solid red;
+  font-size: 30px;
+  transition: ease-in-out 0.5s;
 }
 
 a {
@@ -104,4 +137,5 @@ a {
 
 header {
   position: fixed;
+  padding-right: 100px;
 }/*# sourceMappingURL=styles.css.map */
