@@ -3,12 +3,18 @@
 
 body{
     background-color: rgb(59, 58, 58);
+    width: 100%;
+    
 }
 
-.header{
+header{
     width: 100%;
     height: 110px;
     background-color: rgb(44, 44, 44);
+
+    position: fixed;
+    padding-right: 100px;
+    z-index: 2;
 }
 .logo{
     width: 80px;
@@ -26,11 +32,13 @@ body{
     gap: 20px;
 }
 
+
 nav input{
     margin-left: 200px;
     height: 50px;
     width: 300px;
     border: none;
+    border-radius: 20px;
 
     background-color: rgb(59, 58, 58);
     transition: ease-in-out 0.5s;
@@ -83,7 +91,238 @@ a{
     font-family: 'Orbitron';
 }
 
-header{
-   position: fixed;
-   padding-right: 100px;
+
+.section1{
+    padding-top: 120px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+}
+
+
+
+.simage img{
+    margin-left: 5px;
+    width: 100%;
+    height: 700px;
+    margin-top: 90px;
+    border-radius: 15px;
+    border: 5px solid rgb(255, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
+}
+
+.simage h1{
+    position: absolute;
+    z-index: 1;
+    margin-top: 70px;
+    top: 100px;
+    width: 90%;
+    color: white;
+    text-shadow: 10px 10px 20px rgb(3, 0, 0);
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Orbitron';
+}
+
+.section2{
+    padding: 0px 70px;
+    margin-top: 50px;
+}
+
+.s2div h1{
+    color: white;
+    font-size: 50px;
+    text-align: start;
+    font-family: 'Orbitron';
+}
+
+.section3{
+    padding: 0px 70px;
+    margin-top: 50px;
+    
+}
+
+
+.cards{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.card1{
+    width: 350px;
+    height: 420px;
+    background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(255, 115, 0));
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+}
+
+.card1 img{
+    margin-top: 10px;
+    margin-left: 18px;
+    width: 90%;
+    height: 250px;
+}
+
+.card1 h1{
+    color: rgb(255, 94, 0);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Orbitron';
+}
+
+.card1 h2{
+    color: rgb(189, 189, 189);
+    font-size: 25px;
+    font-family: 'Orbitron';
+    margin-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.card1 h3{
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: 'Orbitron';
+    padding-left: 15px;
+    text-align: left;
+    position: absolute;
+}
+
+.card2{
+    width: 500px;
+    height: 420px;
+    background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(255, 115, 0));
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+}
+
+.card2 h1{
+    color: rgb(255, 94, 0);
+    font-size: 42px;
+    text-align: center;
+    font-family: 'Orbitron';
+}
+
+.card2 h2{
+    color: rgb(189, 189, 189);
+    font-size: 25px;
+    font-family: 'Orbitron';
+    margin-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.card2 img{
+    margin-top: 10px;
+    margin-left: 24px;
+    width: 90%;
+    height: 250px;
+}
+
+.card3{
+    width: 350px;
+    height: 420px;
+    background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(0, 238, 255));
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+}
+.card3 img{
+    margin-top: 10px;
+    margin-left: 18px;
+    width: 90%;
+    height: 260px;
+}
+.card3 h1{
+    color: rgb(0, 255, 221);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Orbitron';
+}
+
+.card3 h2{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Orbitron';
+    margin-top: 5px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.card3 h3{
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: 'Orbitron';
+    padding-left: 15px;
+    text-align: left;
+    position: absolute;
+}
+
+.section4{
+    padding: 0px 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.s4div h1{
+    color: white;
+    font-size: 50px;
+    text-align: start;
+    font-family: 'Orbitron';
+}
+
+.Grid img{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 15px;
+    border: 4px solid rgb(4, 52, 83);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
+}
+
+.footer{
+    background-color: rgb(29, 28, 28);
+    height: 250px;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.fdiv{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.fdiv img{
+    width: 80px;
+    height: 80px;
+    vertical-align: top;
+    background-color: rgb(29, 28, 28);
+}
+
+.fdiv h1{
+    color: white;
+    font-size: 25px;
+    font-family: 'Orbitron';
+}
+
+.contact{
+    color: white;
+    font-size: 20px;
+    font-family: 'Orbitron';
+}
+
+.contact a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.edu{}
+
+.edu img{
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
 }
