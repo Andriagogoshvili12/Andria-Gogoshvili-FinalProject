@@ -93,7 +93,7 @@ a {
   nav input {
     margin-left: 200px;
     height: 50px;
-    width: 300px;
+    width: 200px;
     border: none;
     border-radius: 20px;
     background-color: rgb(59, 58, 58);
@@ -335,7 +335,7 @@ a {
   }
   .footer {
     background-color: rgb(29, 28, 28);
-    margin-top: 20px;
+    margin-top: 50px;
     height: 250px;
     width: 100%;
     padding: 20px 30px;
@@ -569,6 +569,23 @@ a {
     gap: 20px;
     flex-direction: column;
   }
+  .old-teams {
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .old-teams1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .old-teams h1 {
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    font-family: "Orbitron";
+    margin-top: 10px;
+  }
   .team-text h1 {
     color: white;
     font-size: 36px;
@@ -712,6 +729,28 @@ a {
     box-shadow: 10px 10px 30px rgb(156, 156, 156);
     display: flex;
   }
+  .t-lotus {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 70%;
+    height: 400px;
+    padding: 0 10px;
+    background-color: rgb(48, 47, 47);
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgb(102, 255, 0);
+    display: flex;
+  }
+  .t-renault {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 70%;
+    height: 400px;
+    padding: 0 10px;
+    background-color: rgb(48, 47, 47);
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgb(199, 199, 199);
+    display: flex;
+  }
   .cchampionship {
     padding: 0px 70px;
     margin-top: 200px;
@@ -782,5 +821,161 @@ a {
     border-radius: 10px;
     box-shadow: 10px 10px 30px rgb(0, 0, 0);
     margin-top: 30px;
+  }
+  .ccrankings {
+    padding: 0px 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .rankings-container {
+    width: 100%;
+    height: 625px;
+    background-color: rgb(44, 44, 44);
+  }
+  .t-ranks {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(43, 42, 42);
+    border: 1px solid rgb(26, 26, 26);
+    display: flex;
+    z-index: 1;
+  }
+  .t-ranks h1 {
+    color: white;
+    width: 400px;
+    font-size: 25px;
+    font-family: "Orbitron";
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .t-ranks h2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Orbitron";
+    margin-top: 22px;
+  }
+  .t-ranks-rank {
+    width: 70px;
+    height: 68px;
+    background-color: rgb(26, 26, 26);
+  }
+  .t-ranks-text {
+    margin-left: 500px;
+    width: 200px;
+    height: 68px;
+    vertical-align: middle;
+    background-color: rgb(37, 37, 37);
+  }
+  .t-ranks-rank h3 {
+    color: white;
+    font-size: 15px;
+    font-family: "Orbitron";
+    text-align: center;
+    margin-top: 20px;
+  }
+  .t-ranks-logo {
+    width: 100px;
+    height: 68px;
+    background-color: rgb(37, 37, 37);
+  }
+  .t-ranks-logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .contact-sec {
+    padding-top: 120px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .contact-form {
+    margin-left: 100px;
+  }
+  .contact-sec h1 {
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    font-family: "Orbitron";
+    margin-top: 10px;
+  }
+  .contact-rec {
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 100%;
+    height: 530px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    gap: 20px;
+  }
+  .contact-rec textarea {
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(56, 55, 55);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Orbitron";
+    color: white;
+    resize: none;
+  }
+  .contact-rec textarea:focus {
+    outline: none;
+  }
+  .contact-sec h3 {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-family: "Orbitron";
+    margin-top: 10px;
+  }
+  .contact-rec h2 {
+    margin-left: 120px;
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: "Orbitron";
+  }
+  .contact-rec2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .contact-rec2 input {
+    margin-top: 40px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(56, 55, 55);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Orbitron";
+    color: white;
+  }
+  .contact-rec2 input::placeholder {
+    color: rgb(189, 189, 189);
+  }
+  .contact-rec2 input:focus {
+    outline: none;
+  }
+  .contact-rec2 button {
+    margin-top: 80px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(47, 145, 2);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Orbitron";
+    color: white;
+    cursor: pointer;
+  }
+  .contact-rec2 button:hover {
+    background-color: rgb(0, 163, 0);
+    transition: ease-in-out 0.5s;
   }
 }/*# sourceMappingURL=styles.css.map */
