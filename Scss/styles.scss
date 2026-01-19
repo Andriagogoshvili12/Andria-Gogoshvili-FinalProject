@@ -1,8 +1,8 @@
 @use "_reset.scss"; 
 @import "_variables.scss";
 
-@media only screen and (max-width: 1500px){
-
+@media only screen and (max-width: 1440px) {
+    
     body{
         background-color: rgb(59, 58, 58);
         width: 100%;
@@ -102,19 +102,6 @@ nav{
         
         padding: 10px 50px;
     }
-
-    @media only screen and (max-width: 1135px){
-        input{
-            margin-left: 50px;
-            width: 150px;
-        }
-
-        input:focus{
-            margin-left: 50px;
-            width: 200px;
-        }
-    }
-
 }
 
     .burger{
@@ -366,10 +353,6 @@ nav{
         height: 250px;
         width: 100%;
         padding: 20px 30px;
-
-        @media only screen and (max-width: 1135px){
-        height: 300px;
-    }
     }
 
     .fdiv{
@@ -389,17 +372,6 @@ nav{
             font-size: 25px;
             font-family: 'Orbitron';
         }
-
-        @media only screen and (max-width: 1135px){
-        img{
-            width: 100px;
-            height: 100px;
-        }
-
-        h1{
-            font-size: 40px;
-        }
-        }
     }
 
     .contact{
@@ -413,15 +385,6 @@ nav{
             color: white;
         }
 
-        @media only screen and (max-width: 1135px){
-            .contact{
-                font-size: 30px;
-            }
-
-            a{
-                font-size: 25px;
-            }
-        }
     }
     .edu{
         margin: 0 0px;
@@ -433,12 +396,6 @@ nav{
             height: 70px;
         }
 
-        @media only screen and (max-width: 1135px){
-            img{
-            width: 100px;
-            height: 100px;
-            }
-        }
     }
 
 
@@ -475,18 +432,7 @@ nav{
         border: solid 2px rgb(255, 0, 0);
         }
 
-        @media only screen and (max-width: 1135px){
-            
-        .aboutdiv{
-            h1{
-                font-size: 70px;
-            }
-            p{
-                height: 125px;
-                font-size: 27px;
-            }
-        }
-        }
+        
     }
 
     .aboutdiv1 {
@@ -512,34 +458,11 @@ nav{
 
             }
             }
-            @media only screen and (max-width: 1135px){
-                
-                
-                h1{
-                    font-size: 80px;
-
-                }
-                p{
-                    height: 100px;
-                    font-size: 27px;
-                }
-            }
-        }
         
     .drivers{
         padding-top: 120px;
         padding-left: 70px;
         padding-right: 70px;
-
-        @media only screen and (max-width: 1200px){
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-     @media only screen and (max-width: 1040px){
-        padding-left: 20px;
-        padding-right: 20px;
-    }
     }
 
      
@@ -587,23 +510,6 @@ nav{
             margin-top: 10px;
             width: 90%;
             height: 200px;
-        }
-
-        @media only screen and (max-width: 1200px){
-            h1{
-                font-size: 36px;
-                height: 70px;
-            }
-
-            h3{
-                font-size: 30px;
-                height: 70px;
-            }
-
-            h2{
-                font-size: 20px;
-
-            }
         }
     }
 
@@ -719,82 +625,6 @@ nav{
         border-radius: 10px;
         box-shadow: 10px 10px 30px rgb(0, 0, 0);
     }
-    @media only screen and (max-width: 1200px){
-        
-        $dcard-height: 350px;
-        $dcard-width: 300px;
-        
-        .d-redbull{
-        width: $dcard-width;
-        height: $dcard-height;
-        }
-
-        .d-ferrari{
-        width: $dcard-width;
-        height: $dcard-height;
-        }
-
-        .d-mclaren{
-        width: $dcard-width;
-        height: $dcard-height;
-        }
-
-        .d-mercedes{
-        width: $dcard-width;
-        height: $dcard-height;
-        }
-
-        .d-astonmartin{
-        width: $dcard-width;
-        height: $dcard-height;
-        }
-
-        .d-alpine{
-        width: $dcard-width;
-        height: $dcard-height;
-        }
-
-        .d-haas{
-        width: $dcard-width;
-        height: $dcard-height;
-        }
-
-        .d-williams{
-        width: $dcard-width;
-        height: $dcard-height;
-        }
-
-        .d-audi{
-        width: $dcard-width;
-        height: $dcard-height;
-        }
-
-        .d-cadillac{
-        width: $dcard-width;
-        height: $dcard-height;
-        }
-
-        .d-raceingbulls{
-        width: $dcard-width;
-        height: $dcard-height;
-        }
-
-        .legend{
-            width: $dcard-width;
-            height: $dcard-height;
-        }
-
-        .nickname{
-            width: $dcard-width;
-            height: $dcard-height;
-        }
-
-        .worldchampion{
-            width: $dcard-width;
-            height: $dcard-height;
-        }
-
-    }
 
     .teams-section{
         padding-top: 120px;
@@ -811,12 +641,6 @@ nav{
         
     }
 
-    @media only screen and (max-width: 1200px){
-            
-       .teams-section h1{
-            font-size: 70px;
-        }
-        }
 
     .currentteamscards{
         margin-top: 30px;
@@ -828,13 +652,14 @@ nav{
 
     .old-teams{
         margin-top: 100px;
-        padding-left: 100px;
-        padding-right: 100px
+        padding-left: 70px;
+        padding-right: 70px
     }
 
     .old-teams1{
         display: flex;
         flex-direction: column;
+        justify-items: center;
         gap: 10px;
     }
 
@@ -877,7 +702,7 @@ nav{
         p{
             color: rgb(211, 210, 210);
             padding-left: 10px;
-            font-size: 20px;
+            font-size: 24px;
             text-align: center;
             font-family: 'Orbitron';
             margin-top: 100px;
@@ -1008,52 +833,6 @@ nav{
         display: flex;
     }
 
-    @media only screen and (max-width: 1200px){
-        .t-redbull .d-redbull {
-            height: 300px;
-            }
-
-        .t-ferrari .d-ferrari {
-            height: 300px;
-        }
-
-        .t-astonmartin .d-astonmartin {
-            height: 300px;
-        }
-
-        .t-mclaren .d-mclaren {
-            height: 300px;
-        }
-
-        .t-mercedes .d-mercedes {
-            height: 300px;
-        }
-
-        .t-racing-bulls .d-raceingbulls {
-            height: 300px;
-        }
-
-        .t-williams .d-williams {
-            height: 300px;
-        }
-
-        .t-alpine .d-alpine {
-            height: 300px;
-        }
-
-        .t-audi .d-audi {
-            height: 300px;
-        }
-
-        .t-cadillac .d-cadillac {
-            height: 300px;
-        }
-
-        .t-haas .d-haas {
-            height: 300px;
-        }
-
-        }
 
 
 
@@ -1085,25 +864,19 @@ nav{
 
 
     .cchampionship{
-        padding: 0 140px;
+        padding: 0 70px;
         margin-top: 200px;
         margin-bottom: 50px;
-
-        h1{
+        justify-items: center;
+    }
+    
+    .cchampionship h1{
             color: white;
             font-size: 50px;
             text-align: left;
             font-family: 'Orbitron';
             margin-top: 10px;
         }
-    }
-
-    @media only screen and (max-width: 1200px){
-        .cchampionship h1{
-            font-size: 70px;
-        }
-    }
-    
 
     
 
@@ -1150,8 +923,8 @@ nav{
     }
 
     .c-mclaren{
-        width: 300px;
-        height: 370px;
+        width: 350px;
+        height: 400px;
         background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 115, 0));
         border-radius: 10px;
         box-shadow: 10px 10px 30px rgb(0, 0, 0);
@@ -1159,8 +932,8 @@ nav{
     }
 
     .c-ferrari{
-        width: 300px;
-        height: 370px;
+        width: 350px;
+        height: 400px;
         background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 0, 0));
         border-radius: 10px;
         box-shadow: 10px 10px 30px rgb(0, 0, 0);
@@ -1168,47 +941,32 @@ nav{
     }
 
     .c-williams{
-        width: 300px;
-        height: 370px;
+        width: 350px;
+        height: 400px;
         background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(0, 183, 255));
         border-radius: 10px;
         box-shadow: 10px 10px 30px rgb(0, 0, 0);
         margin-top: 30px;
     }
 
-    @media only screen and (max-width: 1200px){
-        .c-mclaren{
-            width: 370px;
-            height: 400px;
-        }
-
-        .c-ferrari{
-            width: 370px;
-            height: 400px;
-
-        }
-
-        .c-williams{
-            width: 370px;
-            height: 400px;
-        }
-    }
 
     .ccrankings{
+        display: flex;
+        justify-content: center;
         padding: 0px 140px;
         margin-top: 50px;
         margin-bottom: 50px;
     }
 
     .rankings-container{
-        width: 936px;
+        width: 1000px;
         height: 625px;
         background-color: rgb(44, 44, 44);
         
     }
 
     .t-ranks{
-        width: 936px;
+        width: 1000px;
         height: 70px;
         background-color:  rgb(43, 42, 42);
         border: 1px solid rgb(26, 26, 26);
@@ -1238,15 +996,7 @@ nav{
 
     }
 
-    @media only screen and (max-width: 1200px){
-        .ccrankings{
-            padding: 0 70px;
-        }
-        
-        .t-ranks{
-            width: 1060px;
-        }
-    }
+
 
     .t-ranks-rank{
         width: 70px;
@@ -1397,4 +1147,3683 @@ nav{
         }
     }
 
+}
 
+@media only screen and (max-width: 1024px){
+    
+    nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+
+    ul{
+        display: flex;
+        vertical-align: middle;
+        gap: 40px;
+    }
+    li{
+        vertical-align: middle;
+        margin-top: 27px; 
+    }
+
+    li a:hover{
+        border-bottom: 2px solid red;
+        font-size: 30px;
+        transition: ease-in-out 0.5s;
+    }
+
+    a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+
+        font-family: 'Orbitron';
+    }
+
+
+    input{
+        margin-left: 50px;
+        height: 50px;
+        width: 200px;
+        border: none;
+        border-radius: 20px;
+
+        background-color: rgb(59, 58, 58);
+        transition: ease-in-out 0.5s;
+        background-position: center;
+
+    }
+
+    input:focus{
+        margin-left: 30px;
+        height: 50px;
+        width: 200px;
+        outline: none;
+
+        background-image: url('../images/search.png');
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: 10px center;
+        
+        padding: 10px 50px;
+    }
+}
+    
+    
+    
+    .aboutdiv1 {
+        h1{
+            color: rgb(255, 0, 0);
+            font-size: 50px;
+            text-align: start;
+            font-family: 'Orbitron';
+
+        
+        }
+
+            p{
+            color: rgb(211, 210, 210);
+            padding-left: 10px;
+            height: 65px;
+            font-size: 20px;
+            text-align: start;
+            font-family: 'Orbitron';
+            margin-top: 20px;
+            line-height: 1.6;
+            border: solid 2px rgb(255, 0, 0);
+
+            }
+            }
+
+
+    .cchampionship{
+        margin-left: 10px;
+        margin-top: 200px;
+        margin-bottom: 50px;
+        justify-items: center;
+    }
+    
+    .cchampionship h1{
+            color: white;
+            width: 700px;
+            font-size: 50px;
+            text-align: left;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+    
+
+    .c-top3{
+        margin-top: 90px;
+        display: flex;
+        gap: 20px;
+
+
+        h2{
+            color: white;
+            font-size: 36px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            
+        }
+
+        h3{
+            color: white;
+            font-size: 20px;
+            text-align: left;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        h4{
+            color: white;
+            
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 5px;
+            
+        }
+        
+        img{
+            margin-left: 13px;
+            margin-top: 10px;
+            width: 90%;
+            height: 250px;
+        }
+    }
+
+    .c-mclaren{
+        width: 300px;
+        height: 400px;
+        background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 115, 0));
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+        margin-top: 50px;
+    }
+
+    .c-ferrari{
+        width: 300px;
+        height: 400px;
+        background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 0, 0));
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+        
+    }
+
+    .c-williams{
+        width: 300px;
+        height: 400px;
+        background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(0, 183, 255));
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+        margin-top: 30px;
+    }
+
+
+    .ccrankings{
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .rankings-container{
+        width: 1000px;
+        height: 625px;
+        background-color: rgb(44, 44, 44);
+        
+    }
+
+    .t-ranks{
+        width: 1000px;
+        height: 70px;
+        background-color:  rgb(43, 42, 42);
+        border: 1px solid rgb(26, 26, 26);
+        display: flex;
+
+        z-index: 1;
+    
+
+        h1{
+            color: white;
+            width: 400px;
+            font-size: 25px;
+            font-family: 'Orbitron';
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        h2{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            vertical-align: middle;
+            font-family: 'Orbitron';
+            margin-top: 22px;
+            
+        }
+
+    }
+
+
+
+    .t-ranks-rank{
+        width: 70px;
+        height: 68px;
+        background-color: rgb(26, 26, 26);
+    
+        h3{
+            color: white;
+            font-size: 15px;
+            font-family: 'Orbitron';
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+
+    .t-ranks-text{
+        margin-left: 500px;
+        width: 200px;
+        height: 68px;
+        vertical-align: middle;
+        background-color: rgb(37, 37, 37);
+    }
+
+
+    .t-ranks-logo{
+        width: 100px;
+        height: 68px;
+        background-color: rgb(37, 37, 37);
+    
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+    .t-redbull{
+        width: 1000px;
+        height: 400px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 81, 255);
+        display: flex;
+    }
+
+    .t-ferrari{
+        width: 1000px;
+        height: 400px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(255, 0, 0);
+        display: flex;
+    }
+
+    .t-mclaren{
+        width: 1000px;
+        height: 400px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(255, 102, 0);
+        display: flex;
+    }
+
+    .t-mercedes{
+        width: 1000px;
+        height: 400px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 255, 191);
+        display: flex;
+    }
+
+    .t-astonmartin{
+        width: 1000px;
+        height: 400px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 255, 55);
+        display: flex;
+    }
+
+    .t-alpine{
+        width: 1000px;
+        height: 400px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 153, 204);
+        display: flex;
+    }
+
+    .t-haas{
+        width: 1000px;
+        height: 400px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(155, 0, 0);
+        display: flex;
+    }
+
+    .t-racing-bulls{
+        width: 1000px;
+        height: 400px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 204);
+        display: flex;
+    }
+
+    .t-williams{
+        width: 1000px;
+        height: 400px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 153, 255);
+        display: flex;  
+    }
+
+    .t-audi{
+        width: 1000px;
+        height: 400px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(204, 204, 204);
+        display: flex;  
+    }
+
+    .t-cadillac{
+        width: 1000px;
+        height: 400px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(156, 156, 156);
+        display: flex;
+    }
+
+
+    .drivers{
+        padding-top: 120px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+     
+
+    .drivers h1{
+        color: white;
+        font-size: 50px;
+        text-align: start;
+        font-family: 'Orbitron';
+    }
+
+    .drivercards{
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        h1{
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+        h2{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 5px;
+        }
+
+        h3{
+            color: white;
+            font-size: 21px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 5px;
+        }
+
+        img{
+            margin-left: 13px;
+            margin-top: 10px;
+            width: 90%;
+            height: 200px;
+        }
+    }
+
+    .d-redbull{
+        width: 200px;
+        height: $dcard-height;
+        background-color: rgb(0, 0, 85);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+
+    .d-ferrari{
+        width: 200px;
+        height: $dcard-height;
+        background-color: rgb(236, 1, 1);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-mclaren{
+        width: 200px;
+        height: $dcard-height;
+        background-color: rgb(255, 102, 0);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-mercedes{
+        width: 200px;
+        height: $dcard-height;
+        background-color: rgb(0, 214, 125);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-astonmartin{
+        width: 200px;
+        height: $dcard-height;
+        background-color: rgb(12, 66, 1);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-alpine{
+        width: 200px;
+        height: $dcard-height;
+        background-color: rgb(1, 124, 146);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-haas{
+        width: 200px;
+        height: $dcard-height;
+        background-color: rgb(170, 27, 2);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-raceingbulls{
+        width: 200px;
+        height: $dcard-height;
+        background-color: rgb(1, 1, 167);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-williams{
+        width: 200px;
+        height: $dcard-height;
+        background-color: rgb(0, 173, 226);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-audi{
+        width: 200px;
+        height: $dcard-height;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-cadillac{
+        width: 200px;
+        height: $dcard-height;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .drivers-team{
+        display: flex;
+        gap: 20px;
+        justify-content: flex-start;
+        margin-top: 30px;
+    }
+
+    .team-text {
+        h1{
+            color: white;
+            font-size: 36px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            width: 250px;
+        }
+
+        h2{
+            color: white;
+            font-size: 36px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            width: 400px;
+        }
+
+        h3{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+        p{
+            color: rgb(211, 210, 210);
+            padding-left: 10px;
+            font-size: 24px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 100px;
+            line-height: 1.6;
+        }
+
+        img{
+            margin-left: 13px;
+            margin-top: 10px;
+            width: 90%;
+            height: 250px;
+        }
+    }
+
+    .teams-section{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 120px;
+    }
+    
+    .ccrankings{
+        padding: 0 30px;
+    }
+
+
+        .contact-sec{
+        padding-top: 120px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        h1{
+            color: white;
+            font-size: 50px;
+            text-align: left;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+    }
+
+    .contact-form{
+        margin-left: 100px;
+    }
+
+    .contact-rec{
+        margin-top: 30px;
+        border-radius: 10px;
+        width: 100%;
+        height: 530px;
+        background-color: rgb(44, 44, 44);
+        display: flex;
+        gap: 20px;
+    }
+
+    .contact-rec{
+        textarea{
+            margin-left: 20px;
+            margin-top: 20px;
+            width: 600px;
+            height: 400px;
+            background-color: rgb(56, 55, 55);
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            color: white;
+            resize: none;
+        }
+
+        textarea:focus{
+            outline: none;
+        }
+    }
+
+    .contact-sec{
+        h3{
+            color: white;
+            font-size: 20px;
+            text-align: left;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+        h2{
+            margin-left: 20px;
+            margin-top: 20px;
+            color: white;
+            font-size: 25px;
+            font-family: 'Orbitron';
+        }
+    }
+
+
+    .contact-rec2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    
+
+        input{
+            margin-top: 40px;
+            width: 300px;
+            height: 50px;
+            background-color: rgb(56, 55, 55);
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            color: white;
+        }
+
+        input::placeholder{
+            color: rgb(189, 189, 189);
+        }
+
+        input:focus{
+            outline: none;
+        }
+
+        button{
+            margin-top: 80px;
+            width: 300px;
+            height: 50px;
+            background-color: rgb(47, 145, 2);
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: rgb(0, 163, 0);
+            transition: ease-in-out 0.5s;
+        }
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+       
+    body{
+        background-color: rgb(59, 58, 58);
+        width: 100%;
+        
+    }
+
+    ::-webkit-scrollbar {
+    width: 10px;
+    background: rgb(44, 44, 44);
+    }
+
+    ::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+    }
+
+    header{
+        width: 100%;
+        height: 110px;
+        background-color: $main-bcolor;
+
+        position: fixed;
+        z-index: 2;
+    }
+    .logo{
+        width: 80px;
+        height: 80px;
+        vertical-align: top;
+        background-color: rgb(44, 44, 44);
+    }
+
+    .mainpage{
+        color: red;
+    }
+
+    .navigation{
+        display: flex;
+        gap: 20px;
+    }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+
+    ul{
+        display: flex;
+        vertical-align: middle;
+        gap: 40px;
+    }
+    li{
+        vertical-align: middle;
+        margin-top: 27px; 
+    }
+
+    li a:hover{
+        border-bottom: 2px solid red;
+        font-size: 30px;
+        transition: ease-in-out 0.5s;
+    }
+
+    a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+
+        font-family: 'Orbitron';
+    }
+
+
+    input{
+        display: none;
+        margin-left: 200px;
+        height: 50px;
+        width: 200px;
+        border: none;
+        border-radius: 20px;
+
+        background-color: rgb(59, 58, 58);
+        transition: ease-in-out 0.5s;
+        background-position: center;
+
+    }
+
+    input:focus{
+        margin-left: 100px;
+        height: 50px;
+        width: 300px;
+        outline: none;
+
+        background-image: url('../images/search.png');
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: 10px center;
+        
+        padding: 10px 50px;
+    }
+}
+
+    .burger{
+        width: 90px;
+        height: 90px;
+        display: none;
+    }
+
+
+
+    .section1{
+        padding-top: 120px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+
+
+
+    .simage{
+
+    img{
+        margin-left: 5px;
+        width: 100%;
+        height: 700px;
+        margin-top: 90px;
+        border-radius: 15px;
+        border: 5px solid rgb(255, 0, 0);
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    h1{
+        position: absolute;
+        z-index: 1;
+        margin-top: 70px;
+        top: 100px;
+        width: 100%;
+        color: white;
+        text-shadow: 10px 10px 20px rgb(3, 0, 0);
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Orbitron';
+    }
+}
+    .section2{
+        padding: 0px 70px;
+        margin-top: 50px;
+    }
+
+    .s2div h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Orbitron';
+    }
+
+    .section3{
+        padding: 0px 30px;
+        margin-top: 50px;
+        
+    }
+
+
+    .cards{
+        display: flex;
+        gap: 30px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card1{
+        width: 250px;
+        height: 420px;
+        background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(255, 115, 0));
+        border-radius: 10px;
+        box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    }
+    .card1{
+        img{
+            margin-top: 10px;
+            margin-left: 18px;
+            width: 90%;
+            height: 250px;
+        }
+
+        h1{
+            color: rgb(255, 94, 0);
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Orbitron';
+        }
+
+        h2{
+            color: rgb(189, 189, 189);
+            font-size: 25px;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            padding-left: 15px;
+            text-align: left;
+        }
+
+        h3{
+            color: rgb(255, 255, 255);
+            margin-top: 5px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            padding-left: 15px;
+            text-align: left;
+            position: absolute;
+        }
+    }
+    .card2{
+        width: 350px;
+        height: 420px;
+        background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(255, 115, 0));
+        border-radius: 10px;
+        box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    }
+
+    .card2{
+
+        h1{
+            color: rgb(255, 94, 0);
+            font-size: 42px;
+            text-align: center;
+            font-family: 'Orbitron';
+        }
+
+        h2{
+            color: rgb(189, 189, 189);
+            font-size: 25px;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            padding-left: 15px;
+            text-align: left;
+        }
+
+        img{
+            margin-top: 10px;
+            margin-left: 24px;
+            width: 90%;
+            height: 250px;
+        }
+    }
+    .card3{
+        width: 350px;
+        height: 420px;
+        background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(0, 238, 255));
+        border-radius: 10px;
+        box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    }
+
+    .card3{
+        img{
+            margin-top: 10px;
+            margin-left: 18px;
+            width: 90%;
+            height: 260px;
+        }
+        h1{
+            color: rgb(0, 255, 221);
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Orbitron';
+        }
+
+        h2{
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            font-family: 'Orbitron';
+            margin-top: 5px;
+            padding-left: 15px;
+            text-align: left;
+        }
+
+        h3{
+            color: rgb(255, 255, 255);
+            margin-top: 5px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            padding-left: 15px;
+            text-align: left;
+            position: absolute;
+        }
+    }
+
+    .section4{
+        padding: 0px 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .s4div h1{
+        color: white;
+        font-size: 50px;
+        text-align: start;
+        font-family: 'Orbitron';
+    }
+
+    .Grid img{
+        margin-top: 30px;
+        width: 100%;
+        border-radius: 15px;
+        border: 4px solid rgb(4, 52, 83);
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .section5{
+        padding:  20px;
+    }
+
+    .ptitle h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Orbitron';
+
+    }
+
+    .pictures{
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .apictures{
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+    .picture1{
+        width: 340px;
+        height: 220px;
+    }
+
+    .picture3{
+        width: 340px;
+        height: 220px;
+    }
+
+
+    .picture4{
+        width: 340px;
+        height: 220px;
+    }
+
+    .picture5{
+        width: 340px;
+        height: 220px;
+    }
+    
+    .picture6{
+        width: 340px;
+        height: 220px;
+    }
+
+    .footer{
+        background-color: rgb(29, 28, 28);
+        margin-top: 50px;
+        height: 250px;
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+    .fdiv{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        img{
+            width: 80px;
+            height: 80px;
+            vertical-align: top;
+            background-color: rgb(29, 28, 28);
+        }
+
+        h1{
+            color: white;
+            font-size: 25px;
+            font-family: 'Orbitron';
+        }
+    }
+
+    .contact{
+        color: white;
+        font-size: 20px;
+        font-family: 'Orbitron';
+
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+        }
+
+    }
+    .edu{
+        margin: 0 0px;
+    
+
+        img{
+            margin-top: 20px;
+            width: 70px;
+            height: 70px;
+        }
+
+    }
+
+
+
+    .about{
+        padding-top: 120px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about1{
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .aboutdiv {
+        h1{
+        color: white;
+        font-size: 60px;
+        text-align: start;
+        font-family: 'Orbitron';
+    }
+
+        p{
+        color: rgb(211, 210, 210);
+        padding-left: 10px;
+        height: 130px;
+        font-size: 23px;
+        text-align: start;
+        font-family: 'Orbitron';
+        margin-top: 20px;
+        line-height: 1.6;
+        border: solid 2px rgb(255, 0, 0);
+        }
+
+        
+    }
+
+    .aboutdiv1 {
+        h1{
+            color: rgb(255, 0, 0);
+            font-size: 60px;
+            text-align: start;
+            font-family: 'Orbitron';
+
+        
+        }
+
+            p{
+            color: rgb(211, 210, 210);
+            padding-left: 10px;
+            height: 85px;
+            font-size: 25px;
+            text-align: start;
+            font-family: 'Orbitron';
+            margin-top: 20px;
+            line-height: 1.6;
+            border: solid 2px rgb(255, 0, 0);
+
+            }
+            }
+        
+    .drivers{
+        padding-top: 120px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+     
+
+    .drivers h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Orbitron';
+    }
+
+    .drivercards{
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        h1{
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+        h2{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 5px;
+        }
+
+        h3{
+            color: white;
+            font-size: 21px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 5px;
+        }
+
+        img{
+            margin-left: 13px;
+            margin-top: 10px;
+            width: 90%;
+            height: 200px;
+        }
+    }
+
+    .d-redbull{
+        width: 270px;
+        height: $dcard-height;
+        background-color: rgb(0, 0, 85);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+
+    .d-ferrari{
+        width: 270px;
+        height: $dcard-height;
+        background-color: rgb(236, 1, 1);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-mclaren{
+        width: 270px;
+        height: $dcard-height;
+        background-color: rgb(255, 102, 0);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-mercedes{
+        width: 270px;
+        height: $dcard-height;
+        background-color: rgb(0, 214, 125);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-astonmartin{
+        width: 270px;
+        height: $dcard-height;
+        background-color: rgb(12, 66, 1);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-alpine{
+        width: 270px;
+        height: $dcard-height;
+        background-color: rgb(1, 124, 146);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-haas{
+        width: 270px;
+        height: $dcard-height;
+        background-color: rgb(170, 27, 2);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-raceingbulls{
+        width: 270px;
+        height: $dcard-height;
+        background-color: rgb(1, 1, 167);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-williams{
+        width: 270px;
+        height: $dcard-height;
+        background-color: rgb(0, 173, 226);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-audi{
+        width: 270px;
+        height: $dcard-height;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-cadillac{
+        width: 270px;
+        height: $dcard-height;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+
+
+    .legend{
+        width: 270px;
+        height: $dcard-height;
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+
+    .worldchampion{
+        width: 270px;
+        height: $dcard-height;
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .nickname{
+        width: 270px;
+        height: $dcard-height;
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .teams-section{
+        padding-top: 120px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .teams-section h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Orbitron';
+        margin-top: 10px;
+        
+    }
+
+
+    .currentteamscards{
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+
+    }
+
+    .old-teams{
+        margin-top: 100px;
+        padding-left: 2px;
+        padding-right: 2px
+    }
+
+    .old-teams1{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        gap: 10px;
+    }
+
+    .old-teams h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Orbitron';
+        margin-top: 10px;
+        
+    }
+
+    .team-text {
+        h1{
+            color: white;
+            font-size: 36px;
+            width: 750px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+        h2{
+            color: white;
+            font-size: 36px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            width: 740px;
+        }
+
+        h3{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+        p{
+            color: rgb(211, 210, 210);
+            padding-left: 10px;
+            font-size: 18px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 50px;
+            line-height: 1.6;
+        }
+
+        img{
+            margin-left: 185px;
+            margin-top: 10px;
+            width: 50%;
+            height: 250px;
+        }
+    }
+
+    
+    .drivers-team{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 30px;
+
+        img{
+            margin-left: 13px;
+            width: 90%
+        }
+    }
+
+    .t-redbull{
+        width: 750px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 81, 255);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-ferrari{
+        width: 750px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(255, 0, 0);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-mclaren{
+        width: 750px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(255, 102, 0);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-mercedes{
+        width: 750px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 255, 191);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-astonmartin{
+        width: 750px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 255, 55);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-alpine{
+        width: 750px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 153, 204);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-haas{
+        width: 750px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(155, 0, 0);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-racing-bulls{
+        width: 750px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 204);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-williams{
+        width: 750px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 153, 255);
+        display: flex;  
+        flex-direction: column;
+    }
+
+    .t-audi{
+        width: 750px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(204, 204, 204);
+        display: flex;  
+        flex-direction: column;
+    }
+
+    .t-cadillac{
+        width: 750px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(156, 156, 156);
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+    .t-lotus{
+        margin-top: 20px;
+        margin-left:  10px;
+        width: 750px;
+        height: 600px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(102, 255, 0);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-renault{
+        margin-top: 10px;
+        margin-left:  10px;
+        width: 750px;
+        height: 600px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(199, 199, 199);
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .cchampionship{
+        padding: 0 30px;
+        margin-top: 200px;
+        margin-bottom: 50px;
+        justify-items: center;
+    }
+    
+    .cchampionship h1{
+            color: white;
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+    
+
+    .c-top3{
+        margin-top: 90px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+        h2{
+            color: white;
+            font-size: 36px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            
+        }
+
+        h3{
+            color: white;
+            font-size: 20px;
+            text-align: left;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        h4{
+            color: white;
+            
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 5px;
+            
+        }
+        
+        img{
+            margin-left: 13px;
+            margin-top: 10px;
+            width: 90%;
+            height: 250px;
+        }
+    }
+
+    .c-ferrari{
+        width: 300px;
+        height: 400px;
+        background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 0, 0));
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0); 
+        margin-top: 5px;
+    }
+
+    .c-mclaren{
+        width: 300px;
+        height: 400px;
+        background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 115, 0));
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+        margin-top: 5px;
+    }
+
+    .c-williams{
+        width: 350px;
+        height: 400px;
+        background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(0, 183, 255));
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+        margin-top: 5px;
+    }
+
+
+    .ccrankings{
+        display: flex;
+        justify-content: center;
+        padding: 0px 140px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .rankings-container{
+        width: 700px;
+        height: 625px;
+        background-color: rgb(44, 44, 44);
+        
+    }
+
+    .t-ranks{
+        width: 700px;
+        height: 70px;
+        background-color:  rgb(43, 42, 42);
+        border: 1px solid rgb(26, 26, 26);
+        display: flex;
+
+        z-index: 1;
+    
+
+        h1{
+            color: white;
+            width: 200px;
+            font-size: 25px;
+            font-family: 'Orbitron';
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        h2{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            vertical-align: middle;
+            font-family: 'Orbitron';
+            margin-top: 22px;
+            
+        }
+
+    }
+
+
+
+    .t-ranks-rank{
+        width: 70px;
+        height: 68px;
+        background-color: rgb(26, 26, 26);
+    
+        h3{
+            color: white;
+            font-size: 15px;
+            font-family: 'Orbitron';
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+
+    .t-ranks-text{
+        margin-left: 200px;
+        width: 200px;
+        height: 68px;
+        vertical-align: middle;
+        background-color: rgb(37, 37, 37);
+    }
+
+
+    .t-ranks-logo{
+        width: 100px;
+        height: 68px;
+        background-color: rgb(37, 37, 37);
+    
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+    .contact-sec{
+        padding-top: 120px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        h1{
+            color: white;
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+    }
+
+    .contact-form{
+        margin-left: 10px;
+    }
+
+    .contact-rec{
+        margin-top: 30px;
+        border-radius: 10px;
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(44, 44, 44);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-rec{
+        textarea{
+            margin-left: 30px;
+            margin-top: 20px;
+            width: 665px;
+            height: 400px;
+            background-color: rgb(56, 55, 55);
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            color: white;
+            resize: none;
+        }
+
+        textarea:focus{
+            outline: none;
+        }
+    }
+
+    .contact-sec{
+        h3{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+        h2{
+            margin-left: 200px;
+            margin-top: 20px;
+            color: white;
+            font-size: 25px;
+            font-family: 'Orbitron';
+        }
+    }
+
+
+    .contact-rec2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 120px;
+        margin-top: 30px;
+    
+
+        input{
+            margin-top: 40px;
+            width: 500px;
+            height: 50px;
+            background-color: rgb(56, 55, 55);
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            color: white;
+        }
+
+        input::placeholder{
+            color: rgb(189, 189, 189);
+        }
+
+        input:focus{
+            outline: none;
+        }
+
+        button{
+            margin-top: 80px;
+            width: 500px;
+            height: 50px;
+            background-color: rgb(47, 145, 2);
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: rgb(0, 163, 0);
+            transition: ease-in-out 0.5s;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+       
+    body{
+        background-color: rgb(59, 58, 58);
+        width: 100%;
+        
+    }
+
+    ::-webkit-scrollbar {
+    width: 10px;
+    background: rgb(44, 44, 44);
+    }
+
+    ::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+    }
+
+    header{
+        width: 100%;
+        height: 110px;
+        background-color: $main-bcolor;
+
+        position: fixed;
+        z-index: 2;
+    }
+    .logo{
+        width: 80px;
+        height: 80px;
+        vertical-align: top;
+        background-color: rgb(44, 44, 44);
+    }
+
+    .mainpage{
+        color: red;
+    }
+
+    .navigation{
+        display: flex;
+        gap: 20px;
+    }
+
+nav{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+
+
+    ul{
+        display: flex;
+        vertical-align: middle;
+        gap: 40px;
+        display: none;
+    }
+    li{
+        vertical-align: middle;
+        margin-top: 27px;
+         
+    }
+
+    li a:hover{
+        border-bottom: 2px solid red;
+        font-size: 30px;
+        transition: ease-in-out 0.5s;
+    }
+
+    a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+
+        font-family: 'Orbitron';
+    }
+
+
+    input{
+        display: none;
+        margin-left: 200px;
+        height: 50px;
+        width: 200px;
+        border: none;
+        border-radius: 20px;
+
+        background-color: rgb(59, 58, 58);
+        transition: ease-in-out 0.5s;
+        background-position: center;
+
+    }
+
+    input:focus{
+        margin-left: 100px;
+        height: 50px;
+        width: 300px;
+        outline: none;
+
+        background-image: url('../images/search.png');
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: 10px center;
+        
+        padding: 10px 50px;
+    }
+}
+
+    .burger{
+        width: 60px;
+        height: 50px;
+        display: flex;
+        margin-left: 200px;
+    }
+
+
+
+    .section1{
+        padding-top: 120px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+
+
+
+    .simage{
+
+    img{
+        margin-left: 5px;
+        width: 420px;
+        height: 400px;
+        margin-top: 90px;
+        border-radius: 15px;
+        border: 5px solid rgb(255, 0, 0);
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    h1{
+        position: absolute;
+        z-index: 1;
+        margin-top: 70px;
+        top: 100px;
+        width: 100%;
+        color: white;
+        text-shadow: 10px 10px 20px rgb(3, 0, 0);
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Orbitron';
+    }
+}
+    .section2{
+        padding: 0px 70px;
+        margin-top: 50px;
+    }
+
+    .s2div h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Orbitron';
+    }
+
+    .section3{
+        padding: 0px 30px;
+        margin-top: 50px;
+        
+    }
+
+
+    .cards{
+        display: flex;
+        gap: 30px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card1{
+        width: 250px;
+        height: 420px;
+        background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(255, 115, 0));
+        border-radius: 10px;
+        box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    }
+    .card1{
+        img{
+            margin-top: 10px;
+            margin-left: 18px;
+            width: 90%;
+            height: 250px;
+        }
+
+        h1{
+            color: rgb(255, 94, 0);
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Orbitron';
+        }
+
+        h2{
+            color: rgb(189, 189, 189);
+            font-size: 25px;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            padding-left: 15px;
+            text-align: left;
+        }
+
+        h3{
+            color: rgb(255, 255, 255);
+            margin-top: 5px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            padding-left: 15px;
+            text-align: left;
+            position: absolute;
+        }
+    }
+    .card2{
+        width: 350px;
+        height: 420px;
+        background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(255, 115, 0));
+        border-radius: 10px;
+        box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    }
+
+    .card2{
+
+        h1{
+            color: rgb(255, 94, 0);
+            font-size: 42px;
+            text-align: center;
+            font-family: 'Orbitron';
+        }
+
+        h2{
+            color: rgb(189, 189, 189);
+            font-size: 25px;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            padding-left: 15px;
+            text-align: left;
+        }
+
+        img{
+            margin-top: 10px;
+            margin-left: 24px;
+            width: 90%;
+            height: 250px;
+        }
+    }
+    .card3{
+        width: 350px;
+        height: 420px;
+        background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(0, 238, 255));
+        border-radius: 10px;
+        box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    }
+
+    .card3{
+        img{
+            margin-top: 10px;
+            margin-left: 18px;
+            width: 90%;
+            height: 260px;
+        }
+        h1{
+            color: rgb(0, 255, 221);
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Orbitron';
+        }
+
+        h2{
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            font-family: 'Orbitron';
+            margin-top: 5px;
+            padding-left: 15px;
+            text-align: left;
+        }
+
+        h3{
+            color: rgb(255, 255, 255);
+            margin-top: 5px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            padding-left: 15px;
+            text-align: left;
+            position: absolute;
+        }
+    }
+
+    .section4{
+        padding: 0px 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .s4div h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Orbitron';
+    }
+
+    .Grid img{
+        margin-top: 30px;
+        width: 100%;
+        border-radius: 15px;
+        border: 4px solid rgb(4, 52, 83);
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .section5{
+        padding:  20px;
+    }
+
+    .ptitle h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Orbitron';
+
+    }
+
+    .pictures{
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .apictures{
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+    .picture1{
+        width: 340px;
+        height: 220px;
+    }
+
+    .picture3{
+        width: 340px;
+        height: 220px;
+    }
+
+
+    .picture4{
+        width: 340px;
+        height: 220px;
+    }
+
+    .picture5{
+        width: 340px;
+        height: 220px;
+    }
+    
+    .picture6{
+        width: 340px;
+        height: 220px;
+    }
+
+    .footer{
+        background-color: rgb(29, 28, 28);
+        margin-top: 50px;
+        height: 250px;
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+    .fdiv{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        img{
+            width: 80px;
+            height: 80px;
+            vertical-align: top;
+            background-color: rgb(29, 28, 28);
+        }
+
+        h1{
+            color: white;
+            font-size: 25px;
+            font-family: 'Orbitron';
+        }
+    }
+
+    .contact{
+        color: white;
+        font-size: 20px;
+        font-family: 'Orbitron';
+
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+        }
+
+    }
+    .edu{
+        margin: 0 0px;
+    
+
+        img{
+            margin-top: 20px;
+            width: 70px;
+            height: 70px;
+        }
+
+    }
+
+
+
+    .about{
+        padding-top: 120px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about1{
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .aboutdiv {
+        h1{
+        color: white;
+        font-size: 60px;
+        text-align: start;
+        font-family: 'Orbitron';
+    }
+
+        p{
+        color: rgb(211, 210, 210);
+        padding-left: 10px;
+        height: 175px;
+        font-size: 23px;
+        text-align: start;
+        font-family: 'Orbitron';
+        margin-top: 20px;
+        line-height: 1.6;
+        border: solid 2px rgb(255, 0, 0);
+        }
+
+        
+    }
+
+    .aboutdiv1 {
+        h1{
+            color: rgb(255, 0, 0);
+            font-size: 60px;
+            text-align: start;
+            font-family: 'Orbitron';
+
+        
+        }
+
+            p{
+            color: rgb(211, 210, 210);
+            padding-left: 10px;
+            height: 120px;
+            font-size: 25px;
+            text-align: start;
+            font-family: 'Orbitron';
+            margin-top: 20px;
+            line-height: 1.6;
+            border: solid 2px rgb(255, 0, 0);
+
+            }
+            }
+        
+    .drivers{
+        padding-top: 120px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+     
+
+    .drivers h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Orbitron';
+    }
+
+    .drivercards{
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        h1{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+        h2{
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 5px;
+        }
+
+        h3{
+            color: white;
+            font-size: 21px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 5px;
+        }
+
+        img{
+            margin-left: 8px;
+            margin-top: 10px;
+            width: 90%;
+            height: 200px;
+        }
+    }
+
+    .d-redbull{
+        width: 170px;
+        height: $dcard-height;
+        background-color: rgb(0, 0, 85);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+
+    .d-ferrari{
+        width: 170px;
+        height: $dcard-height;
+        background-color: rgb(236, 1, 1);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-mclaren{
+        width: 170px;
+        height: $dcard-height;
+        background-color: rgb(255, 102, 0);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-mercedes{
+        width: 170px;
+        height: $dcard-height;
+        background-color: rgb(0, 214, 125);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-astonmartin{
+        width: 170px;
+        height: $dcard-height;
+        background-color: rgb(12, 66, 1);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-alpine{
+        width: 170px;
+        height: $dcard-height;
+        background-color: rgb(1, 124, 146);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-haas{
+        width: 170px;
+        height: $dcard-height;
+        background-color: rgb(170, 27, 2);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-raceingbulls{
+        width: 170px;
+        height: $dcard-height;
+        background-color: rgb(1, 1, 167);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-williams{
+        width: 170px;
+        height: $dcard-height;
+        background-color: rgb(0, 173, 226);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-audi{
+        width: 170px;
+        height: $dcard-height;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .d-cadillac{
+        width: 170px;
+        height: $dcard-height;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+
+
+    .legend{
+        width: 170px;
+        height: $dcard-height;
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+
+    .worldchampion{
+        width: 170px;
+        height: $dcard-height;
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .nickname{
+        width: 170px;
+        height: $dcard-height;
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    }
+
+    .teams-section{
+        padding-top: 120px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .teams-section h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Orbitron';
+        margin-top: 10px;
+        
+    }
+
+
+    .currentteamscards{
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+
+    }
+
+    .old-teams{
+        margin-top: 100px;
+        padding-left: 2px;
+        padding-right: 2px
+    }
+
+    .old-teams1{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        gap: 10px;
+    }
+
+    .old-teams h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Orbitron';
+        margin-top: 10px;
+        
+    }
+
+    .team-text {
+        h1{
+            color: white;
+            font-size: 36px;
+            width: 400px;
+            text-align: left;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+        h2{
+            color: white;
+            font-size: 36px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            width: 400px;
+        }
+
+        h3{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+        p{
+            color: rgb(211, 210, 210);
+            padding-left: 10px;
+            font-size: 18px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 50px;
+            line-height: 1.6;
+        }
+
+        img{
+            margin-left: 100px;
+            margin-top: 10px;
+            width: 50%;
+            height: 250px;
+        }
+    }
+
+    
+    .drivers-team{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 30px;
+
+        img{
+            margin-left: 13px;
+            width: 90%
+        }
+    }
+
+    .t-redbull{
+        width: 400px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 81, 255);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-ferrari{
+        width: 400px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(255, 0, 0);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-mclaren{
+        width: 400px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(255, 102, 0);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-mercedes{
+        width: 400px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 255, 191);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-astonmartin{
+        width: 400px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 255, 55);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-alpine{
+        width: 400px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 153, 204);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-haas{
+        width: 400px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(155, 0, 0);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-racing-bulls{
+        width: 400px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 204);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-williams{
+        width: 400px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 153, 255);
+        display: flex;  
+        flex-direction: column;
+    }
+
+    .t-audi{
+        width: 400px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(204, 204, 204);
+        display: flex;  
+        flex-direction: column;
+    }
+
+    .t-cadillac{
+        width: 400px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(156, 156, 156);
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+    .t-lotus{
+        margin-top: 20px;
+        margin-left:  10px;
+        width: 400px;
+        height: 600px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(102, 255, 0);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-renault{
+        margin-top: 10px;
+        margin-left:  10px;
+        width: 400px;
+        height: 600px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(199, 199, 199);
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .cchampionship{
+        padding: 0 30px;
+        margin-top: 200px;
+        margin-bottom: 50px;
+        justify-items: center;
+    }
+    
+    .cchampionship h1{
+            color: white;
+            font-size: 50px;
+            text-align: left;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+    
+
+    .c-top3{
+        margin-top: 90px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+        h2{
+            color: white;
+            font-size: 36px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            
+        }
+
+        h3{
+            color: white;
+            font-size: 20px;
+            text-align: left;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        h4{
+            color: white;
+            
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 5px;
+            
+        }
+        
+        img{
+            margin-left: 13px;
+            margin-top: 10px;
+            width: 90%;
+            height: 250px;
+        }
+    }
+
+    .c-ferrari{
+        width: 350px;
+        height: 400px;
+        background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 0, 0));
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0); 
+        margin-top: 5px;
+    }
+
+    .c-mclaren{
+        width: 350px;
+        height: 400px;
+        background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 115, 0));
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+        margin-top: 5px;
+    }
+
+    .c-williams{
+        width: 350px;
+        height: 400px;
+        background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(0, 183, 255));
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+        margin-top: 5px;
+    }
+
+
+    .ccrankings{
+        display: flex;
+        justify-content: center;
+        padding: 0px 140px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .rankings-container{
+        width: 420px;
+        height: 625px;
+        background-color: rgb(44, 44, 44);
+        
+    }
+
+    .t-ranks{
+        width: 420px;
+        height: 70px;
+        background-color:  rgb(43, 42, 42);
+        border: 1px solid rgb(26, 26, 26);
+        display: flex;
+
+        z-index: 1;
+    
+
+        h1{
+            color: white;
+            width: 200px;
+            font-size: 25px;
+            font-family: 'Orbitron';
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        h2{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            vertical-align: middle;
+            font-family: 'Orbitron';
+            margin-top: 22px;
+            
+        }
+
+    }
+
+
+
+    .t-ranks-rank{
+        width: 70px;
+        height: 68px;
+        background-color: rgb(26, 26, 26);
+    
+        h3{
+            color: white;
+            font-size: 15px;
+            font-family: 'Orbitron';
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+
+    .t-ranks-text{
+        margin-left: 100px;
+        width: 200px;
+        height: 68px;
+        vertical-align: middle;
+        background-color: rgb(37, 37, 37);
+    }
+
+
+    .t-ranks-logo{
+        width: 100px;
+        height: 68px;
+        background-color: rgb(37, 37, 37);
+    
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+    .contact-sec{
+        padding-top: 120px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        h1{
+            color: white;
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+    }
+
+    .contact-form{
+        margin-left: 10px;
+    }
+
+    .contact-rec{
+        margin-top: 30px;
+        border-radius: 10px;
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(44, 44, 44);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-rec{
+        textarea{
+            margin-left: 30px;
+            margin-top: 20px;
+            width: 665px;
+            height: 400px;
+            background-color: rgb(56, 55, 55);
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            color: white;
+            resize: none;
+        }
+
+        textarea:focus{
+            outline: none;
+        }
+    }
+
+    .contact-sec{
+        h3{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+        h2{
+            margin-left: 200px;
+            margin-top: 20px;
+            color: white;
+            font-size: 25px;
+            font-family: 'Orbitron';
+        }
+    }
+
+
+    .contact-rec2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 120px;
+        margin-top: 30px;
+    
+
+        input{
+            margin-top: 40px;
+            width: 500px;
+            height: 50px;
+            background-color: rgb(56, 55, 55);
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            color: white;
+        }
+
+        input::placeholder{
+            color: rgb(189, 189, 189);
+        }
+
+        input:focus{
+            outline: none;
+        }
+
+        button{
+            margin-top: 80px;
+            width: 500px;
+            height: 50px;
+            background-color: rgb(47, 145, 2);
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: rgb(0, 163, 0);
+            transition: ease-in-out 0.5s;
+        }
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .burger{
+        margin-left: 230px;
+    }
+
+    .about{
+        padding-top: 120px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about1{
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .aboutdiv {
+        h1{
+        color: white;
+        font-size: 60px;
+        text-align: start;
+        font-family: 'Orbitron';
+    }
+
+        p{
+        color: rgb(211, 210, 210);
+        padding-left: 10px;
+        height: 230px;
+        font-size: 22px;
+        text-align: start;
+        font-family: 'Orbitron';
+        margin-top: 20px;
+        line-height: 1.6;
+        border: solid 2px rgb(255, 0, 0);
+        }
+
+        
+    }
+
+    .aboutdiv1 {
+        h1{
+            color: rgb(255, 0, 0);
+            font-size: 60px;
+            text-align: start;
+            font-family: 'Orbitron';
+
+        
+        }
+
+            p{
+            color: rgb(211, 210, 210);
+            padding-left: 10px;
+            height: 170px;
+            font-size: 25px;
+            text-align: start;
+            font-family: 'Orbitron';
+            margin-top: 20px;
+            line-height: 1.6;
+            border: solid 2px rgb(255, 0, 0);
+
+            }
+            }
+
+    .footer{
+        background-color: rgb(29, 28, 28);
+        margin-top: 50px;
+        height: 250px;
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+    .fdiv{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        img{
+            width: 80px;
+            height: 80px;
+            vertical-align: top;
+            background-color: rgb(29, 28, 28);
+        }
+
+        h1{
+            color: white;
+            font-size: 25px;
+            font-family: 'Orbitron';
+        }
+    }
+
+    .contact{
+        color: white;
+        font-size: 20px;
+        font-family: 'Orbitron';
+
+        a{
+            text-decoration: none;
+            font-size: 15px;
+            color: white;
+        }
+
+    }
+    .edu{
+        margin: 0 0px;
+    
+
+        img{
+            margin-top: 20px;
+            width: 70px;
+            height: 70px;
+        }
+
+    }
+
+    .team-text {
+        h1{
+            color: white;
+            font-size: 36px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            width: 400px;
+        }
+
+        h2{
+            color: white;
+            font-size: 36px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            width: 400px;
+        }
+
+        h3{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+        p{
+            color: rgb(211, 210, 210);
+            padding-left: 10px;
+            font-size: 24px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 100px;
+            line-height: 1.6;
+        }
+
+        img{
+            margin-left: 6px;
+            margin-top: 10px;
+            width: 90%;
+            height: 200px;
+        }
+    }
+
+       .t-redbull{
+        width: 400px;
+        height: 1000px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 81, 255);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-ferrari{
+        width: 400px;
+        height: 1000px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(255, 0, 0);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-mclaren{
+        width: 400px;
+        height: 1000px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(255, 102, 0);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-mercedes{
+        width: 400px;
+        height: 1000px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 255, 191);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-astonmartin{
+        width: 400px;
+        height: 1000px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 255, 55);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-alpine{
+        width: 400px;
+        height: 1000px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 153, 204);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-haas{
+        width: 400px;
+        height: 1000px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(155, 0, 0);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-racing-bulls{
+        width: 400px;
+        height: 1000px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 204);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-williams{
+        width: 400px;
+        height: 1000px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 153, 255);
+        display: flex;  
+        flex-direction: column;
+    }
+
+    .t-audi{
+        width: 400px;
+        height: 1000px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(204, 204, 204);
+        display: flex;  
+        flex-direction: column;
+    }
+
+    .t-cadillac{
+        width: 400px;
+        height: 1000px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(156, 156, 156);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cchampionship h1{
+            color: white;
+            width: 400px;
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+    
+
+    .c-top3{
+        margin-top: 90px;
+        display: flex;
+        gap: 20px;
+
+
+        h2{
+            color: white;
+            font-size: 36px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            
+        }
+
+        h3{
+            color: white;
+            font-size: 20px;
+            text-align: left;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        h4{
+            color: white;
+            
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Orbitron';
+            margin-top: 5px;
+            
+        }
+        
+        img{
+            margin-left: 13px;
+            margin-top: 10px;
+            width: 90%;
+            height: 250px;
+        }
+    }
+
+    .c-mclaren{
+        width: 350px;
+        height: 400px;
+        background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 115, 0));
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+        margin-top: 50px;
+    }
+
+    .c-ferrari{
+        width: 350px;
+        height: 400px;
+        background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 0, 0));
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+        
+    }
+
+    .c-williams{
+        width: 350px;
+        height: 400px;
+        background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(0, 183, 255));
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+        margin-top: 30px;
+    }
+
+
+    .ccrankings{
+        display: flex;
+        justify-content: center;
+        padding: 0px 140px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .rankings-container{
+        width: 400px;
+        height: 625px;
+        background-color: rgb(44, 44, 44);
+        
+    }
+
+    .t-ranks{
+        width: 400px;
+        height: 70px;
+        background-color:  rgb(43, 42, 42);
+        border: 1px solid rgb(26, 26, 26);
+        display: flex;
+
+        z-index: 1;
+    
+
+        h1{
+            color: white;
+            width: 100px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        h2{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            vertical-align: middle;
+            font-family: 'Orbitron';
+            margin-top: 22px;
+            
+        }
+
+    }
+
+
+
+    .t-ranks-rank{
+        width: 70px;
+        height: 68px;
+        background-color: rgb(26, 26, 26);
+    
+        h3{
+            color: white;
+            font-size: 15px;
+            font-family: 'Orbitron';
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+
+    .t-ranks-text{
+        margin-left: 20px;
+        width: 100px;
+        height: 68px;
+        vertical-align: middle;
+        background-color: rgb(37, 37, 37);
+    }
+
+
+    .t-ranks-logo{
+        width: 100px;
+        height: 68px;
+        background-color: rgb(37, 37, 37);
+    
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .t-lotus{
+        margin-top: 20px;
+        margin-left:  10px;
+        width: 400px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(102, 255, 0);
+        display: flex;
+    }
+
+    .t-renault{
+        margin-top: 10px;
+        margin-left:  10px;
+        width: 400px;
+        height: 900px;
+        padding: 0 10px;
+        background-color: rgb(48, 47, 47);
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgb(199, 199, 199);
+        display: flex;
+    }
+
+        .contact-sec{
+        padding-top: 120px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+        h1{
+            color: white;
+            font-size: 50px;
+            text-align: left;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+    }
+
+    .contact-form{
+        margin-left: 10px;
+    }
+
+    .contact-rec{
+        margin-top: 30px;
+        border-radius: 10px;
+        width: 100%;
+        height: 800px;
+        background-color: rgb(44, 44, 44);
+        display: flex;
+        gap: 20px;
+    }
+
+    .contact-rec{
+        textarea{
+            margin-left: 20px;
+            margin-top: 20px;
+            width: 370px;
+            height: 250px;
+            background-color: rgb(56, 55, 55);
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            color: white;
+            resize: none;
+        }
+
+        textarea:focus{
+            outline: none;
+        }
+    }
+
+    .contact-sec{
+        h3{
+            color: white;
+            font-size: 20px;
+            text-align: left;
+            font-family: 'Orbitron';
+            margin-top: 10px;
+        }
+
+        h2{
+            margin-left: 20px;
+            margin-top: 20px;
+            color: white;
+            font-size: 25px;
+            font-family: 'Orbitron';
+        }
+    }
+
+
+    .contact-rec2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 30px;
+    
+
+        input{
+            margin-top: 40px;
+            width: 370px;
+            height: 50px;
+            background-color: rgb(56, 55, 55);
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            color: white;
+        }
+
+        input::placeholder{
+            color: rgb(189, 189, 189);
+        }
+
+        input:focus{
+            outline: none;
+        }
+
+        button{
+            margin-top: 80px;
+            width: 370px;
+            height: 50px;
+            background-color: rgb(47, 145, 2);
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            font-family: 'Orbitron';
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: rgb(0, 163, 0);
+            transition: ease-in-out 0.5s;
+        }
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .burger{
+        margin-left: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 325px){
+    .burger{
+        margin-left: 120px;
+    }
+
+    .contact{
+        color: white;
+        font-size: 20px;
+        font-family: 'Orbitron';
+
+        a{
+            text-decoration: none;
+            font-size: 15px;
+            color: white;
+        }
+    }
+
+    .footer{
+        height: 300px;
+    }
+}
