@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,8 +49,7 @@ table {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
@@ -95,27 +87,20 @@ a {
     color: red;
   }
   .navigation {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
   }
+  .dropdown {
+    display: none;
+  }
   nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 20px;
     padding-left: 20px;
   }
   nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     vertical-align: middle;
     gap: 40px;
@@ -127,8 +112,6 @@ a {
   nav li a:hover {
     border-bottom: 2px solid red;
     font-size: 30px;
-    -webkit-transition: ease-in-out 0.5s;
-    -o-transition: ease-in-out 0.5s;
     transition: ease-in-out 0.5s;
   }
   nav a {
@@ -144,8 +127,6 @@ a {
     border: none;
     border-radius: 20px;
     background-color: rgb(59, 58, 58);
-    -webkit-transition: ease-in-out 0.5s;
-    -o-transition: ease-in-out 0.5s;
     transition: ease-in-out 0.5s;
     background-position: center;
   }
@@ -178,8 +159,7 @@ a {
     margin-top: 90px;
     border-radius: 15px;
     border: 5px solid rgb(255, 0, 0);
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .simage h1 {
     position: absolute;
@@ -208,24 +188,17 @@ a {
     margin-top: 50px;
   }
   .cards {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 30px;
     margin-top: 30px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .card1 {
     width: 350px;
     height: 420px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(29, 29, 29)), to(rgb(255, 115, 0)));
-    background-image: -o-linear-gradient(top, rgb(29, 29, 29), rgb(255, 115, 0));
     background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(255, 115, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 20px 20px 30px rgb(0, 0, 0);
-            box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
   }
   .card1 img {
     margin-top: 10px;
@@ -259,12 +232,9 @@ a {
   .card2 {
     width: 500px;
     height: 420px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(29, 29, 29)), to(rgb(255, 115, 0)));
-    background-image: -o-linear-gradient(top, rgb(29, 29, 29), rgb(255, 115, 0));
     background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(255, 115, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 20px 20px 30px rgb(0, 0, 0);
-            box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
   }
   .card2 h1 {
     color: rgb(255, 94, 0);
@@ -289,12 +259,9 @@ a {
   .card3 {
     width: 350px;
     height: 420px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(29, 29, 29)), to(rgb(0, 238, 255)));
-    background-image: -o-linear-gradient(top, rgb(29, 29, 29), rgb(0, 238, 255));
     background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(0, 238, 255));
     border-radius: 10px;
-    -webkit-box-shadow: 20px 20px 30px rgb(0, 0, 0);
-            box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
   }
   .card3 img {
     margin-top: 10px;
@@ -341,8 +308,7 @@ a {
     width: 100%;
     border-radius: 15px;
     border: 4px solid rgb(4, 52, 83);
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .section5 {
     padding: 70px;
@@ -355,19 +321,13 @@ a {
   }
   .pictures {
     margin-top: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .apictures {
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .picture1 {
     width: 400px;
@@ -389,13 +349,9 @@ a {
     padding: 20px 30px;
   }
   .fdiv {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   .fdiv img {
     width: 80px;
@@ -483,15 +439,10 @@ a {
   }
   .drivercards {
     margin-top: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .drivercards h1 {
     color: white;
@@ -525,109 +476,95 @@ a {
     height: 300px;
     background-color: rgb(0, 0, 85);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-ferrari {
     width: 250px;
     height: 300px;
     background-color: rgb(236, 1, 1);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-mclaren {
     width: 250px;
     height: 300px;
     background-color: rgb(255, 102, 0);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-mercedes {
     width: 250px;
     height: 300px;
     background-color: rgb(0, 214, 125);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-astonmartin {
     width: 250px;
     height: 300px;
     background-color: rgb(12, 66, 1);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-alpine {
     width: 250px;
     height: 300px;
     background-color: rgb(1, 124, 146);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-haas {
     width: 250px;
     height: 300px;
     background-color: rgb(170, 27, 2);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-raceingbulls {
     width: 250px;
     height: 300px;
     background-color: rgb(1, 1, 167);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-williams {
     width: 250px;
     height: 300px;
     background-color: rgb(0, 173, 226);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-audi {
     width: 250px;
     height: 300px;
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-cadillac {
     width: 250px;
     height: 300px;
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .legend {
     width: 250px;
     height: 300px;
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .worldchampion {
     width: 250px;
     height: 300px;
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .nickname {
     width: 250px;
     height: 300px;
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .teams-section {
     padding-top: 120px;
@@ -643,14 +580,9 @@ a {
   }
   .currentteamscards {
     margin-top: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .old-teams {
     margin-top: 100px;
@@ -658,13 +590,8 @@ a {
     padding-right: 70px;
   }
   .old-teams1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     justify-items: center;
     gap: 10px;
   }
@@ -714,13 +641,9 @@ a {
     height: 250px;
   }
   .drivers-team {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     margin-top: 30px;
   }
   .t-redbull {
@@ -729,10 +652,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 81, 255);
-            box-shadow: 10px 10px 30px rgb(0, 81, 255);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 81, 255);
     display: flex;
   }
   .t-ferrari {
@@ -741,10 +661,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(255, 0, 0);
-            box-shadow: 10px 10px 30px rgb(255, 0, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(255, 0, 0);
     display: flex;
   }
   .t-mclaren {
@@ -753,10 +670,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(255, 102, 0);
-            box-shadow: 10px 10px 30px rgb(255, 102, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(255, 102, 0);
     display: flex;
   }
   .t-mercedes {
@@ -765,10 +679,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 255, 191);
-            box-shadow: 10px 10px 30px rgb(0, 255, 191);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 255, 191);
     display: flex;
   }
   .t-astonmartin {
@@ -777,10 +688,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 255, 55);
-            box-shadow: 10px 10px 30px rgb(0, 255, 55);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 255, 55);
     display: flex;
   }
   .t-alpine {
@@ -789,10 +697,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 153, 204);
-            box-shadow: 10px 10px 30px rgb(0, 153, 204);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 153, 204);
     display: flex;
   }
   .t-haas {
@@ -801,10 +706,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(155, 0, 0);
-            box-shadow: 10px 10px 30px rgb(155, 0, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(155, 0, 0);
     display: flex;
   }
   .t-racing-bulls {
@@ -813,10 +715,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 204);
-            box-shadow: 10px 10px 30px rgb(0, 0, 204);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 0, 204);
     display: flex;
   }
   .t-williams {
@@ -825,10 +724,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 153, 255);
-            box-shadow: 10px 10px 30px rgb(0, 153, 255);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 153, 255);
     display: flex;
   }
   .t-audi {
@@ -837,10 +733,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(204, 204, 204);
-            box-shadow: 10px 10px 30px rgb(204, 204, 204);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(204, 204, 204);
     display: flex;
   }
   .t-cadillac {
@@ -849,10 +742,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(156, 156, 156);
-            box-shadow: 10px 10px 30px rgb(156, 156, 156);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(156, 156, 156);
     display: flex;
   }
   .t-lotus {
@@ -863,10 +753,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(102, 255, 0);
-            box-shadow: 10px 10px 30px rgb(102, 255, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(102, 255, 0);
     display: flex;
   }
   .t-renault {
@@ -877,10 +764,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(199, 199, 199);
-            box-shadow: 10px 10px 30px rgb(199, 199, 199);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(199, 199, 199);
     display: flex;
   }
   .cchampionship {
@@ -898,8 +782,6 @@ a {
   }
   .c-top3 {
     margin-top: 90px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
   }
@@ -934,42 +816,29 @@ a {
   .c-mclaren {
     width: 350px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(29, 29, 29)), to(rgb(255, 115, 0)));
-    background-image: -o-linear-gradient(bottom, rgb(29, 29, 29), rgb(255, 115, 0));
     background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 115, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
     margin-top: 50px;
   }
   .c-ferrari {
     width: 350px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(29, 29, 29)), to(rgb(255, 0, 0)));
-    background-image: -o-linear-gradient(bottom, rgb(29, 29, 29), rgb(255, 0, 0));
     background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 0, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .c-williams {
     width: 350px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(29, 29, 29)), to(rgb(0, 183, 255)));
-    background-image: -o-linear-gradient(bottom, rgb(29, 29, 29), rgb(0, 183, 255));
     background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(0, 183, 255));
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
     margin-top: 30px;
   }
   .ccrankings {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     padding: 0px 140px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -984,8 +853,6 @@ a {
     height: 70px;
     background-color: rgb(43, 42, 42);
     border: 1px solid rgb(26, 26, 26);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     z-index: 1;
   }
@@ -1054,8 +921,6 @@ a {
     width: 100%;
     height: 530px;
     background-color: rgb(44, 44, 44);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
   }
@@ -1091,13 +956,8 @@ a {
     font-family: "Orbitron";
   }
   .contact-rec2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-top: 30px;
   }
   .contact-rec2 input {
@@ -1111,18 +971,6 @@ a {
     font-size: 20px;
     font-family: "Orbitron";
     color: white;
-  }
-  .contact-rec2 input::-webkit-input-placeholder {
-    color: rgb(189, 189, 189);
-  }
-  .contact-rec2 input::-moz-placeholder {
-    color: rgb(189, 189, 189);
-  }
-  .contact-rec2 input:-ms-input-placeholder {
-    color: rgb(189, 189, 189);
-  }
-  .contact-rec2 input::-ms-input-placeholder {
-    color: rgb(189, 189, 189);
   }
   .contact-rec2 input::placeholder {
     color: rgb(189, 189, 189);
@@ -1144,28 +992,21 @@ a {
   }
   .contact-rec2 button:hover {
     background-color: rgb(0, 163, 0);
-    -webkit-transition: ease-in-out 0.5s;
-    -o-transition: ease-in-out 0.5s;
     transition: ease-in-out 0.5s;
   }
 }
 @media only screen and (max-width: 1024px) {
   nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 20px;
     padding-left: 20px;
   }
+  nav .dropdown {
+    display: none;
+  }
   nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     vertical-align: middle;
     gap: 40px;
@@ -1177,8 +1018,6 @@ a {
   nav li a:hover {
     border-bottom: 2px solid red;
     font-size: 30px;
-    -webkit-transition: ease-in-out 0.5s;
-    -o-transition: ease-in-out 0.5s;
     transition: ease-in-out 0.5s;
   }
   nav a {
@@ -1194,8 +1033,6 @@ a {
     border: none;
     border-radius: 20px;
     background-color: rgb(59, 58, 58);
-    -webkit-transition: ease-in-out 0.5s;
-    -o-transition: ease-in-out 0.5s;
     transition: ease-in-out 0.5s;
     background-position: center;
   }
@@ -1243,8 +1080,6 @@ a {
   }
   .c-top3 {
     margin-top: 90px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
   }
@@ -1279,42 +1114,29 @@ a {
   .c-mclaren {
     width: 300px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(29, 29, 29)), to(rgb(255, 115, 0)));
-    background-image: -o-linear-gradient(bottom, rgb(29, 29, 29), rgb(255, 115, 0));
     background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 115, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
     margin-top: 50px;
   }
   .c-ferrari {
     width: 300px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(29, 29, 29)), to(rgb(255, 0, 0)));
-    background-image: -o-linear-gradient(bottom, rgb(29, 29, 29), rgb(255, 0, 0));
     background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 0, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .c-williams {
     width: 300px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(29, 29, 29)), to(rgb(0, 183, 255)));
-    background-image: -o-linear-gradient(bottom, rgb(29, 29, 29), rgb(0, 183, 255));
     background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(0, 183, 255));
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
     margin-top: 30px;
   }
   .ccrankings {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     margin-left: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -1329,8 +1151,6 @@ a {
     height: 70px;
     background-color: rgb(43, 42, 42);
     border: 1px solid rgb(26, 26, 26);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     z-index: 1;
   }
@@ -1384,10 +1204,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 81, 255);
-            box-shadow: 10px 10px 30px rgb(0, 81, 255);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 81, 255);
     display: flex;
   }
   .t-ferrari {
@@ -1396,10 +1213,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(255, 0, 0);
-            box-shadow: 10px 10px 30px rgb(255, 0, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(255, 0, 0);
     display: flex;
   }
   .t-mclaren {
@@ -1408,10 +1222,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(255, 102, 0);
-            box-shadow: 10px 10px 30px rgb(255, 102, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(255, 102, 0);
     display: flex;
   }
   .t-mercedes {
@@ -1420,10 +1231,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 255, 191);
-            box-shadow: 10px 10px 30px rgb(0, 255, 191);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 255, 191);
     display: flex;
   }
   .t-astonmartin {
@@ -1432,10 +1240,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 255, 55);
-            box-shadow: 10px 10px 30px rgb(0, 255, 55);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 255, 55);
     display: flex;
   }
   .t-alpine {
@@ -1444,10 +1249,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 153, 204);
-            box-shadow: 10px 10px 30px rgb(0, 153, 204);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 153, 204);
     display: flex;
   }
   .t-haas {
@@ -1456,10 +1258,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(155, 0, 0);
-            box-shadow: 10px 10px 30px rgb(155, 0, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(155, 0, 0);
     display: flex;
   }
   .t-racing-bulls {
@@ -1468,10 +1267,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 204);
-            box-shadow: 10px 10px 30px rgb(0, 0, 204);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 0, 204);
     display: flex;
   }
   .t-williams {
@@ -1480,10 +1276,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 153, 255);
-            box-shadow: 10px 10px 30px rgb(0, 153, 255);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 153, 255);
     display: flex;
   }
   .t-audi {
@@ -1492,10 +1285,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(204, 204, 204);
-            box-shadow: 10px 10px 30px rgb(204, 204, 204);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(204, 204, 204);
     display: flex;
   }
   .t-cadillac {
@@ -1504,10 +1294,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(156, 156, 156);
-            box-shadow: 10px 10px 30px rgb(156, 156, 156);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(156, 156, 156);
     display: flex;
   }
   .drivers {
@@ -1523,15 +1310,10 @@ a {
   }
   .drivercards {
     margin-top: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .drivercards h1 {
     color: white;
@@ -1565,97 +1347,82 @@ a {
     height: 300px;
     background-color: rgb(0, 0, 85);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-ferrari {
     width: 200px;
     height: 300px;
     background-color: rgb(236, 1, 1);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-mclaren {
     width: 200px;
     height: 300px;
     background-color: rgb(255, 102, 0);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-mercedes {
     width: 200px;
     height: 300px;
     background-color: rgb(0, 214, 125);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-astonmartin {
     width: 200px;
     height: 300px;
     background-color: rgb(12, 66, 1);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-alpine {
     width: 200px;
     height: 300px;
     background-color: rgb(1, 124, 146);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-haas {
     width: 200px;
     height: 300px;
     background-color: rgb(170, 27, 2);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-raceingbulls {
     width: 200px;
     height: 300px;
     background-color: rgb(1, 1, 167);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-williams {
     width: 200px;
     height: 300px;
     background-color: rgb(0, 173, 226);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-audi {
     width: 200px;
     height: 300px;
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-cadillac {
     width: 200px;
     height: 300px;
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .drivers-team {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    justify-content: flex-start;
     margin-top: 30px;
   }
   .team-text h1 {
@@ -1725,8 +1492,6 @@ a {
     width: 100%;
     height: 530px;
     background-color: rgb(44, 44, 44);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
   }
@@ -1762,13 +1527,8 @@ a {
     font-family: "Orbitron";
   }
   .contact-rec2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-top: 30px;
   }
   .contact-rec2 input {
@@ -1782,18 +1542,6 @@ a {
     font-size: 20px;
     font-family: "Orbitron";
     color: white;
-  }
-  .contact-rec2 input::-webkit-input-placeholder {
-    color: rgb(189, 189, 189);
-  }
-  .contact-rec2 input::-moz-placeholder {
-    color: rgb(189, 189, 189);
-  }
-  .contact-rec2 input:-ms-input-placeholder {
-    color: rgb(189, 189, 189);
-  }
-  .contact-rec2 input::-ms-input-placeholder {
-    color: rgb(189, 189, 189);
   }
   .contact-rec2 input::placeholder {
     color: rgb(189, 189, 189);
@@ -1815,8 +1563,6 @@ a {
   }
   .contact-rec2 button:hover {
     background-color: rgb(0, 163, 0);
-    -webkit-transition: ease-in-out 0.5s;
-    -o-transition: ease-in-out 0.5s;
     transition: ease-in-out 0.5s;
   }
 }
@@ -1850,27 +1596,17 @@ a {
     color: red;
   }
   .navigation {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
   }
   nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 20px;
     padding-left: 20px;
   }
   nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     vertical-align: middle;
     gap: 40px;
@@ -1882,8 +1618,6 @@ a {
   nav li a:hover {
     border-bottom: 2px solid red;
     font-size: 30px;
-    -webkit-transition: ease-in-out 0.5s;
-    -o-transition: ease-in-out 0.5s;
     transition: ease-in-out 0.5s;
   }
   nav a {
@@ -1900,8 +1634,6 @@ a {
     border: none;
     border-radius: 20px;
     background-color: rgb(59, 58, 58);
-    -webkit-transition: ease-in-out 0.5s;
-    -o-transition: ease-in-out 0.5s;
     transition: ease-in-out 0.5s;
     background-position: center;
   }
@@ -1934,8 +1666,7 @@ a {
     margin-top: 90px;
     border-radius: 15px;
     border: 5px solid rgb(255, 0, 0);
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .simage h1 {
     position: absolute;
@@ -1964,26 +1695,18 @@ a {
     margin-top: 50px;
   }
   .cards {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 30px;
     margin-top: 30px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .card1 {
     width: 250px;
     height: 420px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(29, 29, 29)), to(rgb(255, 115, 0)));
-    background-image: -o-linear-gradient(top, rgb(29, 29, 29), rgb(255, 115, 0));
     background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(255, 115, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 20px 20px 30px rgb(0, 0, 0);
-            box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
   }
   .card1 img {
     margin-top: 10px;
@@ -2017,12 +1740,9 @@ a {
   .card2 {
     width: 350px;
     height: 420px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(29, 29, 29)), to(rgb(255, 115, 0)));
-    background-image: -o-linear-gradient(top, rgb(29, 29, 29), rgb(255, 115, 0));
     background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(255, 115, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 20px 20px 30px rgb(0, 0, 0);
-            box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
   }
   .card2 h1 {
     color: rgb(255, 94, 0);
@@ -2047,12 +1767,9 @@ a {
   .card3 {
     width: 350px;
     height: 420px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(29, 29, 29)), to(rgb(0, 238, 255)));
-    background-image: -o-linear-gradient(top, rgb(29, 29, 29), rgb(0, 238, 255));
     background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(0, 238, 255));
     border-radius: 10px;
-    -webkit-box-shadow: 20px 20px 30px rgb(0, 0, 0);
-            box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
   }
   .card3 img {
     margin-top: 10px;
@@ -2099,8 +1816,7 @@ a {
     width: 100%;
     border-radius: 15px;
     border: 4px solid rgb(4, 52, 83);
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .section5 {
     padding: 20px;
@@ -2113,19 +1829,13 @@ a {
   }
   .pictures {
     margin-top: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .apictures {
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .picture1 {
     width: 340px;
@@ -2155,13 +1865,9 @@ a {
     padding: 20px 30px;
   }
   .fdiv {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   .fdiv img {
     width: 80px;
@@ -2249,15 +1955,10 @@ a {
   }
   .drivercards {
     margin-top: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .drivercards h1 {
     color: white;
@@ -2291,109 +1992,95 @@ a {
     height: 300px;
     background-color: rgb(0, 0, 85);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-ferrari {
     width: 270px;
     height: 300px;
     background-color: rgb(236, 1, 1);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-mclaren {
     width: 270px;
     height: 300px;
     background-color: rgb(255, 102, 0);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-mercedes {
     width: 270px;
     height: 300px;
     background-color: rgb(0, 214, 125);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-astonmartin {
     width: 270px;
     height: 300px;
     background-color: rgb(12, 66, 1);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-alpine {
     width: 270px;
     height: 300px;
     background-color: rgb(1, 124, 146);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-haas {
     width: 270px;
     height: 300px;
     background-color: rgb(170, 27, 2);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-raceingbulls {
     width: 270px;
     height: 300px;
     background-color: rgb(1, 1, 167);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-williams {
     width: 270px;
     height: 300px;
     background-color: rgb(0, 173, 226);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-audi {
     width: 270px;
     height: 300px;
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-cadillac {
     width: 270px;
     height: 300px;
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .legend {
     width: 270px;
     height: 300px;
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .worldchampion {
     width: 270px;
     height: 300px;
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .nickname {
     width: 270px;
     height: 300px;
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .teams-section {
     padding-top: 120px;
@@ -2409,14 +2096,9 @@ a {
   }
   .currentteamscards {
     margin-top: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .old-teams {
     margin-top: 100px;
@@ -2424,13 +2106,8 @@ a {
     padding-right: 2px;
   }
   .old-teams1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     justify-items: center;
     gap: 10px;
   }
@@ -2480,13 +2157,9 @@ a {
     height: 250px;
   }
   .drivers-team {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     margin-top: 30px;
   }
   .drivers-team img {
@@ -2499,15 +2172,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 81, 255);
-            box-shadow: 10px 10px 30px rgb(0, 81, 255);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 81, 255);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-ferrari {
     width: 750px;
@@ -2515,15 +2182,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(255, 0, 0);
-            box-shadow: 10px 10px 30px rgb(255, 0, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(255, 0, 0);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-mclaren {
     width: 750px;
@@ -2531,15 +2192,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(255, 102, 0);
-            box-shadow: 10px 10px 30px rgb(255, 102, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(255, 102, 0);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-mercedes {
     width: 750px;
@@ -2547,15 +2202,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 255, 191);
-            box-shadow: 10px 10px 30px rgb(0, 255, 191);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 255, 191);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-astonmartin {
     width: 750px;
@@ -2563,15 +2212,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 255, 55);
-            box-shadow: 10px 10px 30px rgb(0, 255, 55);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 255, 55);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-alpine {
     width: 750px;
@@ -2579,15 +2222,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 153, 204);
-            box-shadow: 10px 10px 30px rgb(0, 153, 204);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 153, 204);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-haas {
     width: 750px;
@@ -2595,15 +2232,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(155, 0, 0);
-            box-shadow: 10px 10px 30px rgb(155, 0, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(155, 0, 0);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-racing-bulls {
     width: 750px;
@@ -2611,15 +2242,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 204);
-            box-shadow: 10px 10px 30px rgb(0, 0, 204);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 0, 204);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-williams {
     width: 750px;
@@ -2627,15 +2252,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 153, 255);
-            box-shadow: 10px 10px 30px rgb(0, 153, 255);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 153, 255);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-audi {
     width: 750px;
@@ -2643,15 +2262,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(204, 204, 204);
-            box-shadow: 10px 10px 30px rgb(204, 204, 204);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(204, 204, 204);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-cadillac {
     width: 750px;
@@ -2659,15 +2272,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(156, 156, 156);
-            box-shadow: 10px 10px 30px rgb(156, 156, 156);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(156, 156, 156);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-lotus {
     margin-top: 20px;
@@ -2677,15 +2284,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(102, 255, 0);
-            box-shadow: 10px 10px 30px rgb(102, 255, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(102, 255, 0);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-renault {
     margin-top: 10px;
@@ -2695,15 +2296,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(199, 199, 199);
-            box-shadow: 10px 10px 30px rgb(199, 199, 199);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(199, 199, 199);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .cchampionship {
     padding: 0 30px;
@@ -2720,15 +2315,10 @@ a {
   }
   .c-top3 {
     margin-top: 90px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .c-top3 h2 {
     color: white;
@@ -2761,43 +2351,30 @@ a {
   .c-ferrari {
     width: 300px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(29, 29, 29)), to(rgb(255, 0, 0)));
-    background-image: -o-linear-gradient(bottom, rgb(29, 29, 29), rgb(255, 0, 0));
     background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 0, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
     margin-top: 5px;
   }
   .c-mclaren {
     width: 300px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(29, 29, 29)), to(rgb(255, 115, 0)));
-    background-image: -o-linear-gradient(bottom, rgb(29, 29, 29), rgb(255, 115, 0));
     background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 115, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
     margin-top: 5px;
   }
   .c-williams {
     width: 350px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(29, 29, 29)), to(rgb(0, 183, 255)));
-    background-image: -o-linear-gradient(bottom, rgb(29, 29, 29), rgb(0, 183, 255));
     background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(0, 183, 255));
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
     margin-top: 5px;
   }
   .ccrankings {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     padding: 0px 140px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -2812,8 +2389,6 @@ a {
     height: 70px;
     background-color: rgb(43, 42, 42);
     border: 1px solid rgb(26, 26, 26);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     z-index: 1;
   }
@@ -2882,13 +2457,8 @@ a {
     width: 100%;
     height: 1000px;
     background-color: rgb(44, 44, 44);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     gap: 20px;
   }
   .contact-rec textarea {
@@ -2923,13 +2493,8 @@ a {
     font-family: "Orbitron";
   }
   .contact-rec2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-left: 120px;
     margin-top: 30px;
   }
@@ -2944,18 +2509,6 @@ a {
     font-size: 20px;
     font-family: "Orbitron";
     color: white;
-  }
-  .contact-rec2 input::-webkit-input-placeholder {
-    color: rgb(189, 189, 189);
-  }
-  .contact-rec2 input::-moz-placeholder {
-    color: rgb(189, 189, 189);
-  }
-  .contact-rec2 input:-ms-input-placeholder {
-    color: rgb(189, 189, 189);
-  }
-  .contact-rec2 input::-ms-input-placeholder {
-    color: rgb(189, 189, 189);
   }
   .contact-rec2 input::placeholder {
     color: rgb(189, 189, 189);
@@ -2977,8 +2530,6 @@ a {
   }
   .contact-rec2 button:hover {
     background-color: rgb(0, 163, 0);
-    -webkit-transition: ease-in-out 0.5s;
-    -o-transition: ease-in-out 0.5s;
     transition: ease-in-out 0.5s;
   }
 }
@@ -3012,23 +2563,19 @@ a {
     color: red;
   }
   .navigation {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
   }
   nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     padding-top: 20px;
   }
+  nav .dropdown {
+    display: flex;
+    z-index: 2;
+  }
   nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     vertical-align: middle;
     gap: 40px;
@@ -3041,8 +2588,6 @@ a {
   nav li a:hover {
     border-bottom: 2px solid red;
     font-size: 30px;
-    -webkit-transition: ease-in-out 0.5s;
-    -o-transition: ease-in-out 0.5s;
     transition: ease-in-out 0.5s;
   }
   nav a {
@@ -3059,8 +2604,6 @@ a {
     border: none;
     border-radius: 20px;
     background-color: rgb(59, 58, 58);
-    -webkit-transition: ease-in-out 0.5s;
-    -o-transition: ease-in-out 0.5s;
     transition: ease-in-out 0.5s;
     background-position: center;
   }
@@ -3075,14 +2618,6 @@ a {
     background-position: 10px center;
     padding: 10px 50px;
   }
-  .burger {
-    width: 60px;
-    height: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: 200px;
-  }
   .section1 {
     padding-top: 120px;
     padding-left: 0px;
@@ -3096,8 +2631,7 @@ a {
     margin-top: 90px;
     border-radius: 15px;
     border: 5px solid rgb(255, 0, 0);
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .simage h1 {
     position: absolute;
@@ -3126,26 +2660,18 @@ a {
     margin-top: 50px;
   }
   .cards {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 30px;
     margin-top: 30px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .card1 {
     width: 250px;
     height: 420px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(29, 29, 29)), to(rgb(255, 115, 0)));
-    background-image: -o-linear-gradient(top, rgb(29, 29, 29), rgb(255, 115, 0));
     background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(255, 115, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 20px 20px 30px rgb(0, 0, 0);
-            box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
   }
   .card1 img {
     margin-top: 10px;
@@ -3179,12 +2705,9 @@ a {
   .card2 {
     width: 350px;
     height: 420px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(29, 29, 29)), to(rgb(255, 115, 0)));
-    background-image: -o-linear-gradient(top, rgb(29, 29, 29), rgb(255, 115, 0));
     background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(255, 115, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 20px 20px 30px rgb(0, 0, 0);
-            box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
   }
   .card2 h1 {
     color: rgb(255, 94, 0);
@@ -3209,12 +2732,9 @@ a {
   .card3 {
     width: 350px;
     height: 420px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(29, 29, 29)), to(rgb(0, 238, 255)));
-    background-image: -o-linear-gradient(top, rgb(29, 29, 29), rgb(0, 238, 255));
     background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(0, 238, 255));
     border-radius: 10px;
-    -webkit-box-shadow: 20px 20px 30px rgb(0, 0, 0);
-            box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
   }
   .card3 img {
     margin-top: 10px;
@@ -3261,8 +2781,7 @@ a {
     width: 100%;
     border-radius: 15px;
     border: 4px solid rgb(4, 52, 83);
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .section5 {
     padding: 20px;
@@ -3275,19 +2794,13 @@ a {
   }
   .pictures {
     margin-top: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .apictures {
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .picture1 {
     width: 340px;
@@ -3317,13 +2830,9 @@ a {
     padding: 20px 30px;
   }
   .fdiv {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   .fdiv img {
     width: 80px;
@@ -3411,15 +2920,10 @@ a {
   }
   .drivercards {
     margin-top: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .drivercards h1 {
     color: white;
@@ -3453,109 +2957,95 @@ a {
     height: 300px;
     background-color: rgb(0, 0, 85);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-ferrari {
     width: 170px;
     height: 300px;
     background-color: rgb(236, 1, 1);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-mclaren {
     width: 170px;
     height: 300px;
     background-color: rgb(255, 102, 0);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-mercedes {
     width: 170px;
     height: 300px;
     background-color: rgb(0, 214, 125);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-astonmartin {
     width: 170px;
     height: 300px;
     background-color: rgb(12, 66, 1);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-alpine {
     width: 170px;
     height: 300px;
     background-color: rgb(1, 124, 146);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-haas {
     width: 170px;
     height: 300px;
     background-color: rgb(170, 27, 2);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-raceingbulls {
     width: 170px;
     height: 300px;
     background-color: rgb(1, 1, 167);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-williams {
     width: 170px;
     height: 300px;
     background-color: rgb(0, 173, 226);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-audi {
     width: 170px;
     height: 300px;
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .d-cadillac {
     width: 170px;
     height: 300px;
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .legend {
     width: 170px;
     height: 300px;
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .worldchampion {
     width: 170px;
     height: 300px;
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .nickname {
     width: 170px;
     height: 300px;
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .teams-section {
     padding-top: 120px;
@@ -3571,14 +3061,9 @@ a {
   }
   .currentteamscards {
     margin-top: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .old-teams {
     margin-top: 100px;
@@ -3586,13 +3071,8 @@ a {
     padding-right: 2px;
   }
   .old-teams1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     justify-items: center;
     gap: 10px;
   }
@@ -3642,13 +3122,9 @@ a {
     height: 250px;
   }
   .drivers-team {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     margin-top: 30px;
   }
   .drivers-team img {
@@ -3661,15 +3137,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 81, 255);
-            box-shadow: 10px 10px 30px rgb(0, 81, 255);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 81, 255);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-ferrari {
     width: 400px;
@@ -3677,15 +3147,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(255, 0, 0);
-            box-shadow: 10px 10px 30px rgb(255, 0, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(255, 0, 0);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-mclaren {
     width: 400px;
@@ -3693,15 +3157,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(255, 102, 0);
-            box-shadow: 10px 10px 30px rgb(255, 102, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(255, 102, 0);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-mercedes {
     width: 400px;
@@ -3709,15 +3167,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 255, 191);
-            box-shadow: 10px 10px 30px rgb(0, 255, 191);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 255, 191);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-astonmartin {
     width: 400px;
@@ -3725,15 +3177,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 255, 55);
-            box-shadow: 10px 10px 30px rgb(0, 255, 55);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 255, 55);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-alpine {
     width: 400px;
@@ -3741,15 +3187,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 153, 204);
-            box-shadow: 10px 10px 30px rgb(0, 153, 204);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 153, 204);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-haas {
     width: 400px;
@@ -3757,15 +3197,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(155, 0, 0);
-            box-shadow: 10px 10px 30px rgb(155, 0, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(155, 0, 0);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-racing-bulls {
     width: 400px;
@@ -3773,15 +3207,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 204);
-            box-shadow: 10px 10px 30px rgb(0, 0, 204);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 0, 204);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-williams {
     width: 400px;
@@ -3789,15 +3217,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 153, 255);
-            box-shadow: 10px 10px 30px rgb(0, 153, 255);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 153, 255);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-audi {
     width: 400px;
@@ -3805,15 +3227,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(204, 204, 204);
-            box-shadow: 10px 10px 30px rgb(204, 204, 204);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(204, 204, 204);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-cadillac {
     width: 400px;
@@ -3821,15 +3237,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(156, 156, 156);
-            box-shadow: 10px 10px 30px rgb(156, 156, 156);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(156, 156, 156);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-lotus {
     margin-top: 20px;
@@ -3839,15 +3249,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(102, 255, 0);
-            box-shadow: 10px 10px 30px rgb(102, 255, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(102, 255, 0);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-renault {
     margin-top: 10px;
@@ -3857,15 +3261,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(199, 199, 199);
-            box-shadow: 10px 10px 30px rgb(199, 199, 199);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(199, 199, 199);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .cchampionship {
     padding: 0 30px;
@@ -3882,15 +3280,10 @@ a {
   }
   .c-top3 {
     margin-top: 90px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .c-top3 h2 {
     color: white;
@@ -3923,43 +3316,30 @@ a {
   .c-ferrari {
     width: 350px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(29, 29, 29)), to(rgb(255, 0, 0)));
-    background-image: -o-linear-gradient(bottom, rgb(29, 29, 29), rgb(255, 0, 0));
     background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 0, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
     margin-top: 5px;
   }
   .c-mclaren {
     width: 350px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(29, 29, 29)), to(rgb(255, 115, 0)));
-    background-image: -o-linear-gradient(bottom, rgb(29, 29, 29), rgb(255, 115, 0));
     background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 115, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
     margin-top: 5px;
   }
   .c-williams {
     width: 350px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(29, 29, 29)), to(rgb(0, 183, 255)));
-    background-image: -o-linear-gradient(bottom, rgb(29, 29, 29), rgb(0, 183, 255));
     background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(0, 183, 255));
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
     margin-top: 5px;
   }
   .ccrankings {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     padding: 0px 140px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -3974,8 +3354,6 @@ a {
     height: 70px;
     background-color: rgb(43, 42, 42);
     border: 1px solid rgb(26, 26, 26);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     z-index: 1;
   }
@@ -4044,13 +3422,8 @@ a {
     width: 100%;
     height: 1000px;
     background-color: rgb(44, 44, 44);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     gap: 20px;
   }
   .contact-rec textarea {
@@ -4085,13 +3458,8 @@ a {
     font-family: "Orbitron";
   }
   .contact-rec2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-left: 120px;
     margin-top: 30px;
   }
@@ -4106,18 +3474,6 @@ a {
     font-size: 20px;
     font-family: "Orbitron";
     color: white;
-  }
-  .contact-rec2 input::-webkit-input-placeholder {
-    color: rgb(189, 189, 189);
-  }
-  .contact-rec2 input::-moz-placeholder {
-    color: rgb(189, 189, 189);
-  }
-  .contact-rec2 input:-ms-input-placeholder {
-    color: rgb(189, 189, 189);
-  }
-  .contact-rec2 input::-ms-input-placeholder {
-    color: rgb(189, 189, 189);
   }
   .contact-rec2 input::placeholder {
     color: rgb(189, 189, 189);
@@ -4139,8 +3495,6 @@ a {
   }
   .contact-rec2 button:hover {
     background-color: rgb(0, 163, 0);
-    -webkit-transition: ease-in-out 0.5s;
-    -o-transition: ease-in-out 0.5s;
     transition: ease-in-out 0.5s;
   }
 }
@@ -4200,13 +3554,9 @@ a {
     padding: 20px 30px;
   }
   .fdiv {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   .fdiv img {
     width: 80px;
@@ -4281,15 +3631,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 81, 255);
-            box-shadow: 10px 10px 30px rgb(0, 81, 255);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 81, 255);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-ferrari {
     width: 400px;
@@ -4297,15 +3641,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(255, 0, 0);
-            box-shadow: 10px 10px 30px rgb(255, 0, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(255, 0, 0);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-mclaren {
     width: 400px;
@@ -4313,15 +3651,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(255, 102, 0);
-            box-shadow: 10px 10px 30px rgb(255, 102, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(255, 102, 0);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-mercedes {
     width: 400px;
@@ -4329,15 +3661,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 255, 191);
-            box-shadow: 10px 10px 30px rgb(0, 255, 191);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 255, 191);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-astonmartin {
     width: 400px;
@@ -4345,15 +3671,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 255, 55);
-            box-shadow: 10px 10px 30px rgb(0, 255, 55);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 255, 55);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-alpine {
     width: 400px;
@@ -4361,15 +3681,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 153, 204);
-            box-shadow: 10px 10px 30px rgb(0, 153, 204);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 153, 204);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-haas {
     width: 400px;
@@ -4377,15 +3691,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(155, 0, 0);
-            box-shadow: 10px 10px 30px rgb(155, 0, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(155, 0, 0);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-racing-bulls {
     width: 400px;
@@ -4393,15 +3701,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 204);
-            box-shadow: 10px 10px 30px rgb(0, 0, 204);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 0, 204);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-williams {
     width: 400px;
@@ -4409,15 +3711,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 153, 255);
-            box-shadow: 10px 10px 30px rgb(0, 153, 255);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(0, 153, 255);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-audi {
     width: 400px;
@@ -4425,15 +3721,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(204, 204, 204);
-            box-shadow: 10px 10px 30px rgb(204, 204, 204);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(204, 204, 204);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .t-cadillac {
     width: 400px;
@@ -4441,15 +3731,9 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(156, 156, 156);
-            box-shadow: 10px 10px 30px rgb(156, 156, 156);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(156, 156, 156);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .cchampionship h1 {
     color: white;
@@ -4461,8 +3745,6 @@ a {
   }
   .c-top3 {
     margin-top: 90px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
   }
@@ -4497,42 +3779,29 @@ a {
   .c-mclaren {
     width: 350px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(29, 29, 29)), to(rgb(255, 115, 0)));
-    background-image: -o-linear-gradient(bottom, rgb(29, 29, 29), rgb(255, 115, 0));
     background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 115, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
     margin-top: 50px;
   }
   .c-ferrari {
     width: 350px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(29, 29, 29)), to(rgb(255, 0, 0)));
-    background-image: -o-linear-gradient(bottom, rgb(29, 29, 29), rgb(255, 0, 0));
     background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(255, 0, 0));
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
   }
   .c-williams {
     width: 350px;
     height: 400px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(29, 29, 29)), to(rgb(0, 183, 255)));
-    background-image: -o-linear-gradient(bottom, rgb(29, 29, 29), rgb(0, 183, 255));
     background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(0, 183, 255));
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(0, 0, 0);
-            box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
     margin-top: 30px;
   }
   .ccrankings {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     padding: 0px 140px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -4547,8 +3816,6 @@ a {
     height: 70px;
     background-color: rgb(43, 42, 42);
     border: 1px solid rgb(26, 26, 26);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     z-index: 1;
   }
@@ -4604,10 +3871,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(102, 255, 0);
-            box-shadow: 10px 10px 30px rgb(102, 255, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(102, 255, 0);
     display: flex;
   }
   .t-renault {
@@ -4618,10 +3882,7 @@ a {
     padding: 0 10px;
     background-color: rgb(48, 47, 47);
     border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 30px rgb(199, 199, 199);
-            box-shadow: 10px 10px 30px rgb(199, 199, 199);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: 10px 10px 30px rgb(199, 199, 199);
     display: flex;
   }
   .contact-sec {
@@ -4645,8 +3906,6 @@ a {
     width: 100%;
     height: 800px;
     background-color: rgb(44, 44, 44);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
   }
@@ -4682,13 +3941,8 @@ a {
     font-family: "Orbitron";
   }
   .contact-rec2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-left: 20px;
     margin-top: 30px;
   }
@@ -4703,18 +3957,6 @@ a {
     font-size: 20px;
     font-family: "Orbitron";
     color: white;
-  }
-  .contact-rec2 input::-webkit-input-placeholder {
-    color: rgb(189, 189, 189);
-  }
-  .contact-rec2 input::-moz-placeholder {
-    color: rgb(189, 189, 189);
-  }
-  .contact-rec2 input:-ms-input-placeholder {
-    color: rgb(189, 189, 189);
-  }
-  .contact-rec2 input::-ms-input-placeholder {
-    color: rgb(189, 189, 189);
   }
   .contact-rec2 input::placeholder {
     color: rgb(189, 189, 189);
@@ -4736,8 +3978,6 @@ a {
   }
   .contact-rec2 button:hover {
     background-color: rgb(0, 163, 0);
-    -webkit-transition: ease-in-out 0.5s;
-    -o-transition: ease-in-out 0.5s;
     transition: ease-in-out 0.5s;
   }
 }
@@ -4763,4 +4003,4 @@ a {
   .footer {
     height: 300px;
   }
-}
+}/*# sourceMappingURL=styles.css.map */
